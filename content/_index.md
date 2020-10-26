@@ -1,5 +1,4 @@
 +++
-draft = true
 [seo_settings]
 meta_description = ""
 meta_title = ""
