@@ -1,0 +1,101 @@
++++
+draft = true
+[seo_settings]
+meta_description = ""
+meta_title = ""
+[[page_sections]]
+button_text = "schedule a free consultation"
+button_url = "https://meetings.hubspot.com/taj10"
+logo_image = "/images/inciter-logo-header.png"
+template = "nav-with-cta"
+[[page_sections]]
+background = ""
+cta_text = "Schedule a free consultation"
+cta_url = "https://calendly.com/inciter/30min"
+headline = "You Deserve Effortless and Accurate Data Reports."
+hero_image = "/images/reports-smaller-1-2048x2023.jpg"
+subheadline = "So you can focus on your mission."
+template = "hero"
+[[page_sections]]
+headline = "DO YOU SPEND DAYS …"
+subheadline = "PUTTING TOGETHER REPORTS FOR BOARD MEETINGS AND FUNDERS?"
+template = "multi-item-section"
+[[page_sections.list_section_item]]
+description = "The problem is, you spend precious time tracking down important numbers that should be right at your fingertips."
+headline = "Your Data is All Over the Place"
+image = "/images/icon-network-61x57.png"
+[[page_sections.list_section_item]]
+description = "Days spent messing around with spreadsheets and canned reports. This isn’t what you signed up for."
+headline = "You Are Overwhelmed"
+image = "/images/icon-help-41x57.png"
+[[page_sections.list_section_item]]
+description = "You spent all week getting reports together for a presentation. Now you are embarrassed to find the numbers aren’t even right."
+headline = "Your Reports are Probably Wrong"
+image = "/images/icon-tablet.png"
+[[page_sections]]
+template = "benefits-side-by-side-with-image"
+image_url = "/images/bag-half.jpg"
+headline = "Imagine if you could..."
+[[page_sections.benefits_list]]
+benefit_text = "Reclaim Hours Every Week."
+benefit_explanation = "Take back all that wasted time with our automated tools."
+[[page_sections.benefits_list]]
+benefit_text = "Be 100% Confident about Your Reports."
+benefit_explanation = "The right reports, with the right data, every time.<br />No more second-guessing yourself."
+[[page_sections.benefits_list]]
+benefit_text = "Find Your Data When You Need It."
+benefit_explanation = "We bring together all your data no matter where it lives.<br />(Hello, no more random spreadsheets!)"
+[[page_sections]]
+template = "single-paragraph-section"
+section_text = "Most nonprofits spend days putting together reports for board meetings and funders. Inciter brings your data together and connects it to a simple reporting tool, saving you time and energy.  Imagine having more time to focus more on your mission and less on your data."
+[[page_sections]]
+template = "two-pane-section"
+left_content = "<h1>WE GET IT.</h1><p>Data and reporting for nonprofits can be a struggle. Nothing makes us happier than taking that off their plate so they can do the work they were meant to do.Most nonprofits spend days putting together reports for board meetings and funders. Inciter brings your data together and connects it to a simple reporting tool, saving you time and energy.  Imagine having more time to focus more on your mission and less on your data.</p>"
+right_content = "<h1>WE'VE SEEN IT ALL.</h1><ul><li>We have 20 years of experience helping nonprofits.</li><li>We have worked with over 150 nonprofits to solve data and reporting problems.</li><li>Our tools work with every kind of database nonprofits work with.</li></ul>"
+[[page_sections]]
+template = "two-pane-section-w-header"
+headline = "What clients are saying"
+left_content = "<p>Inciter staff worked with us, customizing our database to record information specific to our program, clients, and changing funders’ requirements, making reporting a wide range of data possible and easy.</p>- Domestic Violence Nonprofit Director, Baltimore, MD"
+right_content = "<p>Incite has been an incredibly useful tool for our agency to collect data from our multiple partners. Inciter staff are reliable, responsive, and very helpful. They really listen and use their data expertise to tailor our database specifically for us!</p>- Human Trafficking Agency Director, Contra Costa, CA"
+[[page_sections]]
+template = "two-pane-section"
+left_content = "<h1>Most people think</h1><p>that to get the reports they need, they have to buy an expensive new system. That means moving all their data over to a new system, getting everyone trained and willing to USE the new system, and working out all the bugs that come along with a project like that.</p>"
+right_content = "<h1>Guess what?</h1><p>You can get accurate and effortless reports without changing a thing.</p>"
+[[page_sections]]
+template = "two-pane-section-w-header"
+headline = "What we're saying"
+left_content = "<h2>Our Blog</h2>"
+right_content = "<h2>Our Tweets</h2>"
+[[page_sections]]
+template = "two-pane-w-image"
+content = "Contact form goes here"
+image_url = "/images/foo.jpg"
+image_side = "right"
+[[page_sections]]
+template = "three-pane"
+left_content = "<h1>Location</h1><p>Washington , D.C. 20002</p>"
+center_content = "<h1>Phone</h1><p>410.366.1779</p>"
+right_content = "<h1>Email</h1><p>contact@inciter.io</p>"
+[[page_sections]]
+footer_text = "&copy; 2020 Inciter. All Rights Reserved. Incite is a trademark and product offering of Inciter."
+template = "page-footer"
+[[page_sections.social_icons_section]]
+template = "social-icons"
+[[page_sections.social_icons_section.networks]]
+network_icon = ""
+network_name = "Facebook"
+network_url = "https://www.facebook.com/InciterHQ/"
+[[page_sections.social_icons_section.networks]]
+network_icon = ""
+network_name = "Twitter"
+network_url = "https://twitter.com/InciterHQ"
+[[page_sections.social_icons_section.networks]]
+network_icon = ""
+network_name = "Linked In"
+network_url = "https://www.linkedin.com/company/6458327/"
+[[page_sections.social_icons_section.networks]]
+network_icon = ""
+network_name = "Our blog"
+network_url = "https://www.inciter.io/blog-masonry/"
+
++++

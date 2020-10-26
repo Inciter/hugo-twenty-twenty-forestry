@@ -1,0 +1,12 @@
+---
+label: Top Nav with CTA
+hide_body: false
+fields:
+- type: file
+  name: logo_image
+  label: Logo Image
+- type: include
+  name: button
+  label: Button
+  description: ''
+  template: button

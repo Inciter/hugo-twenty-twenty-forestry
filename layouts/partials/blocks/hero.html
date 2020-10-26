@@ -1,0 +1,25 @@
+<section class="hero">
+    <div>
+        <h1>{{.headline}}</h1>
+        <h2>{{.subheadline}}</h2>
+        <a href="{{ .cta_url }}">{{ .cta_text }}</a>
+    </div>
+    <div>
+        <img src="{{ .hero_image|relURL }}" />
+    </div>
+</section>
+
+<style>
+    .hero {
+        display:flex;
+    }
+
+    .hero > div {
+        flex:1;
+    }
+
+    .hero > div img {
+        max-width:100%;
+        height:auto
+    }
+</style>

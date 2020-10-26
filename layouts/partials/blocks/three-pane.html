@@ -1,0 +1,17 @@
+<section class="three-pane">
+    <div>{{ .left_content|safeHTML }}</div>
+    <div>{{ .center_content|safeHTML }}</div>
+    <div>{{ .right_content|safeHTML }}</div>
+</section>
+
+<style>
+    .three-pane {
+        display: flex;
+    }
+
+    .three-pane>div{
+        flex: 1;
+        text-align: center;
+        margin: 3rem;
+    }
+</style>

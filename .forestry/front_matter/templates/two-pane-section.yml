@@ -1,0 +1,10 @@
+---
+label: 2-pane Side-by-Side Section
+hide_body: false
+fields:
+- type: textarea
+  name: left_side
+  label: Left Content
+- type: textarea
+  name: right_side
+  label: Right Content

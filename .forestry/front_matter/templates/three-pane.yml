@@ -1,0 +1,14 @@
+---
+label: 3-pane Side-by-Side Section
+hide_body: false
+display_field: left_content
+fields:
+- type: textarea
+  name: left_content
+  label: Content (left)
+- type: textarea
+  name: center_content
+  label: Content (center)
+- type: textarea
+  name: right_content
+  label: Content (right)

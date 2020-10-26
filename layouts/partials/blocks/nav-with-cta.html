@@ -1,0 +1,28 @@
+<header>
+    <div class="logo-wrapper"><img src="{{ .logo_image | relURL }}" alt="Inciter" /></div>
+    <div class="cta"><a href="{{.button_url}}">{{ .button_text }}</a></div>
+</header>
+
+<style>
+    header {
+        height:120px;
+        display:flex;
+    }
+    header>.div {
+        flex:1
+    }
+    .logo-wrapper {
+        width:275px;
+        height:100%;
+    }
+
+    .logo-wrapper img {
+        height: 100%;
+        width: auto;
+    }
+
+    .cta {
+        text-align:right;
+        width: calc(100vw - 275px);
+    }
+</style>

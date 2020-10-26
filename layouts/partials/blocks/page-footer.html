@@ -1,0 +1,19 @@
+<footer>
+    <div>
+        {{ .footer_text | safeHTML }}
+    </div>
+    <div>
+        {{- range .social_icons_section -}}
+            {{- range .networks -}}
+                <a href="{{ .network_url }}" target="_blank">{{ .network_name }}</a>
+            {{- end -}}
+        {{- end -}}
+    </div>
+</footer>
+<style>
+footer {
+    padding: 3rem 3rem;
+    background-color: #de6d38 !important;
+    color: #fff;
+}
+</style>

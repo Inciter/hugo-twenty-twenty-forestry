@@ -1,0 +1,14 @@
+<section class="two-pane">
+    <div>{{ .left_content | safeHTML }}</div>
+    <div>{{ .right_content | safeHTML }}</div>
+</section>
+
+<style>
+.two-pane {
+    display: flex;
+}
+
+.two-pane>div{
+    flex: 1
+}
+</style>

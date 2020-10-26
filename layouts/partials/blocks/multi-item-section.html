@@ -1,0 +1,21 @@
+<section class="multi-item-section">
+    {{- range .list_section_item -}}
+    <div>
+        <img src="{{.image | relURL }}" />
+        <h2>{{.headline}}</h2>
+        <p>{{.description}}</p>
+    </div>
+    {{- end -}}
+</section>
+
+<style>
+    .multi-item-section {
+        display: flex;
+    }
+
+    .multi-item-section>div{
+        flex: 1;
+        text-align: center;
+        margin: 3rem;
+    }
+</style>

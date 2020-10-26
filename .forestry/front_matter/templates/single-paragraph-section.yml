@@ -1,0 +1,7 @@
+---
+label: Single Paragraph Section
+hide_body: false
+fields:
+- type: textarea
+  name: section_text
+  label: Section Text

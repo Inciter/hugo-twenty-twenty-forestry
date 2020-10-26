@@ -1,0 +1,23 @@
+<section class="two-pane-w-header">
+    <div class="headline">
+        <h1>{{ .headline }}</h1>
+    </div>
+    <div class="split">
+        <div>{{ .left_content | safeHTML }}</div>
+        <div>{{ .right_content | safeHTML }}</div>
+    </div>
+</section>
+
+<style>
+.two-pane-w-header > .split {
+    display: flex;
+}
+
+.two-pane-w-header h1 {
+    text-align:center;
+}
+
+.two-pane-w-header>.split>div{
+    flex: 1
+}
+</style>

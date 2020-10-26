@@ -1,0 +1,17 @@
+---
+label: Page Footer
+hide_body: true
+fields:
+- name: footer_text
+  type: text
+  config:
+    required: false
+  label: Footer Text
+- name: social_icons_section
+  type: blocks
+  label: Social Icons Section
+  template_types:
+  - social-icons
+  config:
+    min: 
+    max: 

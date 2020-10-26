@@ -1,0 +1,34 @@
+---
+label: Page
+hide_body: false
+fields:
+- type: field_group
+  name: seo_settings
+  label: SEO Settings
+  fields:
+  - type: text
+    name: meta_title
+    label: title
+  - type: text
+    name: meta_description
+    label: Description
+- name: page_sections
+  type: blocks
+  label: Page Sections
+  template_types:
+  - nav-with-cta
+  - hero
+  - multi-item-section
+  - page-footer
+  - benefits_sbs_image
+  - single_paragraph
+  - two-pane-section
+  - two-pane-section-w-header
+  - two-pane-w-image
+  - three-pane
+  config:
+    min: 1
+    max: 20
+  description: The blocks used to compose the primary content and layout of the page
+pages:
+- content/_index.md

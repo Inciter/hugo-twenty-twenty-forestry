@@ -1,0 +1,20 @@
+<section class="two-pane">
+    {{ if  eq .image_side "left" }}
+    <div><img src="{{ .image_url|relURL }}" /></div>
+    <div>{{ .content | safeHTML }}</div>
+    {{end}}
+    {{ if eq .image_side "right" }}
+    <div>{{ .content | safeHTML }}</div>
+    <div><img src="{{ .image_url|relURL }}" /></div>
+    {{end}}
+</section>
+
+<style>
+.two-pane {
+    display: flex;
+}
+
+.two-pane>div{
+    flex: 1
+}
+</style>
