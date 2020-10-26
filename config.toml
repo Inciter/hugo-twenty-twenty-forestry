@@ -4,7 +4,8 @@ title = "Twenty Twenty Hugo for Forestry"
 languageName = "En"
 languageCode = "en-us"
 
-theme = "twenty-twenty-hugo"
+# current commented out until we decide on theme and are ready to fully override it
+# theme = "twenty-twenty-hugo"
 # post pagination
 paginate = "6"
 # post excerpt
