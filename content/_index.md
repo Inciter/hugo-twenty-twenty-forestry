@@ -68,7 +68,7 @@ right_content = "<h2>Our Tweets</h2>"
 [[page_sections]]
 template = "two-pane-w-image"
 content = "Contact form goes here"
-image_url = "/images/foo.jpg"
+image_url = "/images/Reporting-Tool-SS-2-1024x1024.png"
 image_side = "right"
 [[page_sections]]
 template = "three-pane"

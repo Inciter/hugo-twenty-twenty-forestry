@@ -5,7 +5,7 @@
     <div>
         {{- range .social_icons_section -}}
             {{- range .networks -}}
-                <a href="{{ .network_url }}" target="_blank">{{ .network_name }}</a>
+                <a href="{{ .network_url }}" target="_blank" rel="noopener">{{ .network_name }}</a>
             {{- end -}}
         {{- end -}}
     </div>
