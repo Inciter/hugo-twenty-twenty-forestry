@@ -1,14 +1,29 @@
 ---
 label: 3-pane Side-by-Side Section
 hide_body: false
-display_field: left_content
+display_field: section_name
 fields:
-- type: textarea
-  name: left_content
-  label: Content (left)
-- type: textarea
-  name: center_content
-  label: Content (center)
-- type: textarea
-  name: right_content
-  label: Content (right)
+  - type: text
+    name: section_name
+    label: Section Name
+  - type: textarea
+    name: left_content
+    label: Content (left)
+    config:
+      wysiwyg: true
+      schema:
+        format: html-blocks
+  - type: textarea
+    name: center_content
+    label: Content (center)
+    config:
+      wysiwyg: true
+      schema:
+        format: html-blocks
+  - type: textarea
+    name: right_content
+    label: Content (right)
+    config:
+      wysiwyg: true
+      schema:
+        format: html-blocks
