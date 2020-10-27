@@ -1,13 +1,14 @@
 <header>
     <div class="section-content-wrapper">
         <div class="logo-wrapper"><img src="{{ .logo_image | relURL }}" alt="Inciter" /></div>
-        <div class="cta"><a href="{{.button_url}}">{{ .button_text }}</a></div>
+        <div class="cta"><a href="{{.button_url}}" target="_blank" rel="noopener" class="btn">{{ .button_text }}</a></div>
     </div>
 </header>
 
 <style>
     header {
-        height:120px;
+        height:90px;
+        padding-bottom: 1rem;
         background: rgba(0,0,0,1);
     }
 
@@ -15,6 +16,7 @@
         display:flex;
         padding-top: 0;
         padding-bottom: 0;
+        height:100%;
     }
 
     header .section-content-wrapper >.div {
@@ -34,5 +36,11 @@
     .cta {
         text-align:right;
         width: calc(1100px - 275px);
+        height: 100%;
+    }
+
+    .cta a {
+        position: relative;
+        top: 37%;
     }
 </style>

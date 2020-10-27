@@ -3,4 +3,18 @@
     max-width: 1100px;
     margin: 0 auto;
     padding: 3rem 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btn {
+      display: inline-block;
+      padding:.5rem 1rem;
+      font-weight: 900;
+      text-transform: uppercase;
+      text-decoration: none;
+      color:#fff;
+      background: #dd6c37;
+      border-radius: 5px;
+      border: 1px solid #dd6c37;
   }

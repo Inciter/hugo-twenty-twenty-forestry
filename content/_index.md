@@ -1,14 +1,14 @@
 +++
 [seo_settings]
-meta_description = ""
-meta_title = ""
+meta_description = "Inciter creates effortless and accurate reporting for nonprofits."
+meta_title = "Inciter"
 [[page_sections]]
 button_text = "schedule a free consultation"
 button_url = "https://meetings.hubspot.com/taj10"
 logo_image = "/images/Inciter-Logo-header-dark.png"
 template = "nav-with-cta"
 [[page_sections]]
-background = ""
+background = "/images/landing-banner-bg.jpg"
 cta_text = "Schedule a free consultation"
 cta_url = "https://calendly.com/inciter/30min"
 headline = "You Deserve Effortless and Accurate Data Reports."

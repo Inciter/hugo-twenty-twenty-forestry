@@ -7,7 +7,7 @@
         <ul>
             {{- range .list_section_item -}}
             <li>
-                <img src="{{.image | relURL }}" />
+                <img src="{{.image | relURL }}" alt="{{.headline}}" />
                 <h2>{{.headline}}</h2>
                 <p>{{.description}}</p>
             </li>

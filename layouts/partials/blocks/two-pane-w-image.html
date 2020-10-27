@@ -6,7 +6,7 @@
         {{end}}
         {{ if eq .image_side "right" }}
         <div>{{ .content | safeHTML }}</div>
-        <div><img src="{{ .image_url|relURL }}" /></div>
+        <div><img src="{{ .image_url|relURL }}" alt="background image" /></div>
         {{end}}
     </div>
 </section>
