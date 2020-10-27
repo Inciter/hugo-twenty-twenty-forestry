@@ -5,7 +5,7 @@ meta_title = ""
 [[page_sections]]
 button_text = "schedule a free consultation"
 button_url = "https://meetings.hubspot.com/taj10"
-logo_image = "/images/inciter-logo-header.png"
+logo_image = "/images/Inciter-Logo-header-dark.png"
 template = "nav-with-cta"
 [[page_sections]]
 background = ""

@@ -1,14 +1,23 @@
 <header>
-    <div class="logo-wrapper"><img src="{{ .logo_image | relURL }}" alt="Inciter" /></div>
-    <div class="cta"><a href="{{.button_url}}">{{ .button_text }}</a></div>
+    <div class="section-content-wrapper">
+        <div class="logo-wrapper"><img src="{{ .logo_image | relURL }}" alt="Inciter" /></div>
+        <div class="cta"><a href="{{.button_url}}">{{ .button_text }}</a></div>
+    </div>
 </header>
 
 <style>
     header {
         height:120px;
-        display:flex;
+        background: rgba(0,0,0,1);
     }
-    header>.div {
+
+    header .section-content-wrapper {
+        display:flex;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    header .section-content-wrapper >.div {
         flex:1
     }
     .logo-wrapper {
@@ -19,10 +28,11 @@
     .logo-wrapper img {
         height: 100%;
         width: auto;
+        max-height: 90px;
     }
 
     .cta {
         text-align:right;
-        width: calc(100vw - 275px);
+        width: calc(1100px - 275px);
     }
 </style>
