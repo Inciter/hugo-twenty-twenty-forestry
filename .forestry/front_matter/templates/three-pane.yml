@@ -3,13 +3,13 @@ label: 3-pane Side-by-Side Section
 hide_body: false
 display_field: section_name
 fields:
-  - type: toggle
+  - type: boolean
     name: show_headline
     label: Show Headline?
   - type: text
     name: headline
     label: Headline
-  - type: toggle
+  - type: boolean
     name: show_subheadline
     label: Show Sub-Headline?
   - type: text
