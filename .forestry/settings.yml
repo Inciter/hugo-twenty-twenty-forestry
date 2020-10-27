@@ -39,11 +39,11 @@ sections:
 - type: document
   path: config.toml
   label: Configuration
-upload_dir: www.inciter.io/static/images
-public_path: "/images"
+upload_dir: ''
+public_path: ''
 front_matter_path: ''
-use_front_matter_path: 
-file_template: ":year:/:month:/:day:/:filename:-:year:-:month:-:day:"
+use_front_matter_path: false
+file_template: ":filename:"
 build:
   preview_env:
   - HUGO_ENV=staging
