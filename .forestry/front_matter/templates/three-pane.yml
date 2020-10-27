@@ -3,6 +3,18 @@ label: 3-pane Side-by-Side Section
 hide_body: false
 display_field: section_name
 fields:
+  - type: toggle
+    name: show_headline
+    label: Show Headline?
+  - type: text
+    name: headline
+    label: Headline
+  - type: toggle
+    name: show_subheadline
+    label: Show Sub-Headline?
+  - type: text
+    name: subheadline
+    label: Sub-Headline
   - type: text
     name: section_name
     label: Section Name
@@ -27,3 +39,19 @@ fields:
       wysiwyg: true
       schema:
         format: html-blocks
+  - type: color
+    name: background_color
+    label: Background color
+    default: "#5b5b5b"
+    config:
+      color_format: "Hex"
+  - type: number
+    name: font_size
+    label: Font Size (in rems)
+    default: 1
+  - type: color
+    name: font_color
+    label: Font Color
+    default: "#ffffff"
+    config:
+      color_format: "Hex"

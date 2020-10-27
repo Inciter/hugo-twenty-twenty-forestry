@@ -55,6 +55,16 @@ background_color = "#5f5f5f"
 font_color = "#ffffff"
 font_size = "1"
 [[page_sections]]
+template = "three-pane"
+show_headline = true
+show_subheadline = true
+headline = "How We Do It"
+subheadline = "These three steps are part of every process we implement. Using this process, there are no surprises and you get the best system for your organization."
+left_content = "<h3>Create a Blueprint</h3><p>We learn about you, your staff, and your program. We ask questions about who enters data and how.</p>"
+center_content = "<h3>Understand the Conduits</h3><p>We identify key data for mapping from one location to another and map out pipelines to get rid of siloed data in your nonprofit.</p>"
+right_content = "<h3>Automate and Visualize</h3><p>We implement machine learning tools to automate cleaning and reporting so the information you need is at your fingertips.</p>"
+background_color = "#ebebeb"
+[[page_sections]]
 template = "two-pane-section-w-header"
 headline = "What clients are saying"
 left_content = "<p>Inciter staff worked with us, customizing our database to record information specific to our program, clients, and changing funders’ requirements, making reporting a wide range of data possible and easy.</p>- Domestic Violence Nonprofit Director, Baltimore, MD"
@@ -79,6 +89,8 @@ image_side = "right"
 background_color = "#fbfbfb"
 font_color = "#000"
 [[page_sections]]
+show_headline = false
+show_subheadline = false
 template = "three-pane"
 left_content = "<h1>Location</h1><p>Washington , D.C. 20002</p>"
 center_content = "<h1>Phone</h1><p>410.366.1779</p>"
