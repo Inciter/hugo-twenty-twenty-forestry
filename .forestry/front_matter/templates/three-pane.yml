@@ -1,57 +1,57 @@
 ---
-label:
+label: three-pane
 hide_body: false
 display_field: section_name
 fields:
-  - type: boolean
-    name: show_headline
-    label: Show Headline?
-  - type: text
-    name: headline
-    label: Headline
-  - type: boolean
-    name: show_subheadline
-    label: Show Sub-Headline?
-  - type: text
-    name: subheadline
-    label: Sub-Headline
-  - type: text
-    name: section_name
-    label: Section Name
-  - type: textarea
-    name: left_content
-    label: Content (left)
-    config:
-      wysiwyg: true
-      schema:
-        format: html-blocks
-  - type: textarea
-    name: center_content
-    label: Content (center)
-    config:
-      wysiwyg: true
-      schema:
-        format: html-blocks
-  - type: textarea
-    name: right_content
-    label: Content (right)
-    config:
-      wysiwyg: true
-      schema:
-        format: html-blocks
-  - type: color
-    name: background_color
-    label: Background color
-    default: "#5b5b5b"
-    config:
-      color_format: "Hex"
-  - type: number
-    name: font_size
-    label: Font Size (in rems)
-    default: 1
-  - type: color
-    name: font_color
-    label: Font Color
-    default: "#ffffff"
-    config:
-      color_format: "Hex"
+- type: boolean
+  name: show_headline
+  label: Show Headline?
+- type: text
+  name: headline
+  label: Headline
+- type: boolean
+  name: show_subheadline
+  label: Show Sub-Headline?
+- type: text
+  name: subheadline
+  label: Sub-Headline
+- type: text
+  name: section_name
+  label: Section Name
+- type: textarea
+  name: left_content
+  label: Content (left)
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+- type: textarea
+  name: center_content
+  label: Content (center)
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+- type: textarea
+  name: right_content
+  label: Content (right)
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+- type: color
+  name: background_color
+  label: Background color
+  default: "#5b5b5b"
+  config:
+    color_format: Hex
+- type: number
+  name: font_size
+  label: Font Size (in rems)
+  default: 1
+- type: color
+  name: font_color
+  label: Font Color
+  default: "#ffffff"
+  config:
+    color_format: Hex
