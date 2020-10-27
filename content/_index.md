@@ -64,6 +64,7 @@ left_content = "<h3>Create a Blueprint</h3><p>We learn about you, your staff, an
 center_content = "<h3>Understand the Conduits</h3><p>We identify key data for mapping from one location to another and map out pipelines to get rid of siloed data in your nonprofit.</p>"
 right_content = "<h3>Automate and Visualize</h3><p>We implement machine learning tools to automate cleaning and reporting so the information you need is at your fingertips.</p>"
 background_color = "#ebebeb"
+font_size = "1"
 [[page_sections]]
 template = "two-pane-section-w-header"
 headline = "What clients are saying"
