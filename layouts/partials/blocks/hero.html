@@ -1,24 +1,26 @@
 <section class="hero">
-    <div>
-        <h1>{{.headline}}</h1>
-        <h2>{{.subheadline}}</h2>
-        <a href="{{ .cta_url }}">{{ .cta_text }}</a>
-    </div>
-    <div>
-        <img src="{{ .hero_image|relURL }}" />
+    <div class="section-content-wrapper">
+        <div>
+            <h1>{{.headline}}</h1>
+            <h2>{{.subheadline}}</h2>
+            <a href="{{ .cta_url }}">{{ .cta_text }}</a>
+        </div>
+        <div>
+            <img src="{{ .hero_image|relURL }}" />
+        </div>
     </div>
 </section>
 
 <style>
-    .hero {
+    .hero > .section-content-wrapper {
         display:flex;
     }
 
-    .hero > div {
+    .hero > div.section-content-wrapper > div {
         flex:1;
     }
 
-    .hero > div img {
+    .hero > div.section-content-wrapper > div img {
         max-width:100%;
         height:auto
     }

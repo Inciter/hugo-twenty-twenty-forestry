@@ -51,6 +51,9 @@ section_text = "Most nonprofits spend days putting together reports for board me
 template = "two-pane-section"
 left_content = "<h1>WE GET IT.</h1><p>Data and reporting for nonprofits can be a struggle. Nothing makes us happier than taking that off their plate so they can do the work they were meant to do.Most nonprofits spend days putting together reports for board meetings and funders. Inciter brings your data together and connects it to a simple reporting tool, saving you time and energy.  Imagine having more time to focus more on your mission and less on your data.</p>"
 right_content = "<h1>WE'VE SEEN IT ALL.</h1><ul><li>We have 20 years of experience helping nonprofits.</li><li>We have worked with over 150 nonprofits to solve data and reporting problems.</li><li>Our tools work with every kind of database nonprofits work with.</li></ul>"
+background_color = "#5f5f5f"
+font_color = "#ffffff"
+font_size = "1"
 [[page_sections]]
 template = "two-pane-section-w-header"
 headline = "What clients are saying"
@@ -60,6 +63,9 @@ right_content = "<p>Incite has been an incredibly useful tool for our agency to 
 template = "two-pane-section"
 left_content = "<h1>Most people think</h1><p>that to get the reports they need, they have to buy an expensive new system. That means moving all their data over to a new system, getting everyone trained and willing to USE the new system, and working out all the bugs that come along with a project like that.</p>"
 right_content = "<h1>Guess what?</h1><p>You can get accurate and effortless reports without changing a thing.</p>"
+background_color = "#5f5f5f"
+font_color = "#ffffff"
+font_size = "1.25"
 [[page_sections]]
 template = "two-pane-section-w-header"
 headline = "What we're saying"
@@ -70,6 +76,8 @@ template = "two-pane-w-image"
 content = "Contact form goes here"
 image_url = "/images/Reporting-Tool-SS-2-1024x1024.png"
 image_side = "right"
+background_color = "#fbfbfb"
+font_color = "#000"
 [[page_sections]]
 template = "three-pane"
 left_content = "<h1>Location</h1><p>Washington , D.C. 20002</p>"

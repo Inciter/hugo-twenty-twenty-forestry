@@ -2,20 +2,25 @@
 label: Benefits (Side By Side w/image)
 hide_body: false
 fields:
-- type: file
-  name: image_url
-  label: Image
-- type: text
-  name: headline
-  label: Headline
-- name: benefits_list
-  type: field_group_list
-  label: Benefits
-  fields:
-  - name: benefit_text
-    label: Benefit
-    type: text
-  - name: benefit_explanation
-    label: Explanation
-    type: textarea
-    default: ''
+  - type: file
+    name: image_url
+    label: Image
+  - type: text
+    name: headline
+    label: Headline
+  - name: benefits_list
+    type: field_group_list
+    label: Benefits
+    fields:
+      - name: benefit_text
+        label: Benefit
+        type: text
+        default: "You can experience X by using Y."
+      - name: benefit_explanation
+        label: Explanation
+        type: textarea
+        default: "This block of text is used as an explanation for the benefit listed in the Benefit Text"
+        config:
+          wysiwyg: true
+          schema:
+            format: html-blocks

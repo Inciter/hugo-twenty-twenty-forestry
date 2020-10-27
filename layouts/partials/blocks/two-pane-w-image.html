@@ -1,20 +1,19 @@
-<section class="two-pane">
-    {{ if  eq .image_side "left" }}
-    <div><img src="{{ .image_url|relURL }}" /></div>
-    <div>{{ .content | safeHTML }}</div>
-    {{end}}
-    {{ if eq .image_side "right" }}
-    <div>{{ .content | safeHTML }}</div>
-    <div><img src="{{ .image_url|relURL }}" /></div>
-    {{end}}
+<section class="two-pane" style="{{ safeHTMLAttr (printf "font-size: %sem" .font_size) }};{{ safeHTMLAttr (printf "background-color: %s" .background_color) }};{{ safeHTMLAttr (printf "color: %s" .font_color) }}">
+    <div class="section-content-wrapper">
+        {{ if  eq .image_side "left" }}
+        <div><img src="{{ .image_url|relURL }}" /></div>
+        <div>{{ .content | safeHTML }}</div>
+        {{end}}
+        {{ if eq .image_side "right" }}
+        <div>{{ .content | safeHTML }}</div>
+        <div><img src="{{ .image_url|relURL }}" /></div>
+        {{end}}
+    </div>
 </section>
 
 <style>
-.two-pane {
-    display: flex;
-}
-
-.two-pane>div{
-    flex: 1
+.two-pane>.section-content-wrapper>div img {
+    max-width: 100%;
+    height:auto;
 }
 </style>

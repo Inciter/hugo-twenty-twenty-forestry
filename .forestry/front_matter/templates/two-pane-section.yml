@@ -2,9 +2,25 @@
 label: 2-pane Side-by-Side Section
 hide_body: false
 fields:
-- type: textarea
-  name: left_side
-  label: Left Content
-- type: textarea
-  name: right_side
-  label: Right Content
+  - type: textarea
+    name: left_side
+    label: Left Content
+  - type: textarea
+    name: right_side
+    label: Right Content
+  - type: color
+    name: background_color
+    label: Background color
+    default: "#5b5b5b"
+    config:
+      color_format: "Hex"
+  - type: number
+    name: font_size
+    label: Font Size (in rems)
+    default: 1
+  - type: color
+    name: font_color
+    label: Font Color
+    default: "#ffffff"
+    config:
+      color_format: "Hex"

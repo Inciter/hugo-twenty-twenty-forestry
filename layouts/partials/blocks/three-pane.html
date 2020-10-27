@@ -1,15 +1,17 @@
 <section class="three-pane">
-    <div>{{ .left_content|safeHTML }}</div>
-    <div>{{ .center_content|safeHTML }}</div>
-    <div>{{ .right_content|safeHTML }}</div>
+    <div class="section-content-wrapper">
+        <div>{{ .left_content|safeHTML }}</div>
+        <div>{{ .center_content|safeHTML }}</div>
+        <div>{{ .right_content|safeHTML }}</div>
+    </div>
 </section>
 
 <style>
-    .three-pane {
+    .three-pane > .section-content-wrapper {
         display: flex;
     }
 
-    .three-pane>div{
+    .three-pane>.section-content-wrapper>div{
         flex: 1;
         text-align: center;
         margin: 3rem;
