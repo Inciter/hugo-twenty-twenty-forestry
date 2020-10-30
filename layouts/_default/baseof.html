@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
+    {{ partial "favicons.html" .}}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta name="description" content="{{.Params.meta_description}}">
-    <title>
-      {{ .Params.meta_title }} | Inciter
-    </title>
+    {{ block "desc" . }}{{ end }}
+    {{ block "title" . }} {{ end }}
 
     {{- $tailwindbase := resources.Get "css/tailwind.css" -}}
     {{- $sass         := resources.Get "css/sass/_index.scss" | toCSS -}}
@@ -17,6 +16,8 @@
     {{- $style := $style | postCSS (dict "config" "./assets/css/postcss/tailwind/postcss.config.js") -}}
     {{- $style := $style | resources.Minify | fingerprint  -}}
 
+    {{ partial "socialgraph.html" .}}
+    {{ partial "prefetch.html" .}}
     <link rel="stylesheet" href="{{ $style.Permalink }}" data>
     
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Ubuntu+Condensed:400,700%7CUbuntu:400,700%7CTitillium+Web:400,700&display=swap" media="all">

@@ -6,7 +6,7 @@
         <div class="links">
             {{- range .social_icons_section -}}
                 {{- range .networks -}}
-                    <a href="{{ .network_url }}" target="_blank" rel="noopener" alt="{{ .network_name}}">{{ partial "fontawesome.html" .network_icon }}</a>
+                    <a href="{{ .network_url }}" target="_blank" rel="noopener" aria-label="Visit us on {{.network_name}}">{{ partial "fontawesome.html" .network_icon }}</a>
                 {{- end -}}
 
                 
