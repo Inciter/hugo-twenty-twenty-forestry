@@ -55,15 +55,16 @@ background_color = "#5f5f5f"
 font_color = "#ffffff"
 font_size = "1"
 [[page_sections]]
+section_name = "how-we-do-it"
 template = "three-pane"
 show_headline = true
 show_subheadline = true
 headline = "How We Do It"
 subheadline = "These three steps are part of every process we implement. Using this process, there are no surprises and you get the best system for your organization."
-left_content = "<h3>Create a Blueprint</h3><p>We learn about you, your staff, and your program. We ask questions about who enters data and how.</p>"
-center_content = "<h3>Understand the Conduits</h3><p>We identify key data for mapping from one location to another and map out pipelines to get rid of siloed data in your nonprofit.</p>"
-right_content = "<h3>Automate and Visualize</h3><p>We implement machine learning tools to automate cleaning and reporting so the information you need is at your fingertips.</p>"
-background_color = "#ebebeb"
+left_content = "<figure>1</figure><h3>Create a Blueprint</h3><p>We learn about you, your staff, and your program. We ask questions about who enters data and how.</p>"
+center_content = "<figure>2</figure><h3>Understand the Conduits</h3><p>We identify key data for mapping from one location to another and map out pipelines to get rid of siloed data in your nonprofit.</p>"
+right_content = "<figure>3</figure><h3>Automate and Visualize</h3><p>We implement machine learning tools to automate cleaning and reporting so the information you need is at your fingertips.</p>"
+background_color = "#f1f1f1"
 font_size = "1"
 [[page_sections]]
 template = "two-pane-section-w-header"
@@ -83,6 +84,7 @@ headline = "What we're saying"
 left_content = "<h2>Our Blog</h2>"
 right_content = "<h2>Our Tweets</h2>"
 [[page_sections]]
+section_name = "contact-form"
 template = "two-pane-w-image"
 content = "Contact form goes here"
 image_url = "/images/Reporting-Tool-SS-2-1024x1024.png"
@@ -90,31 +92,38 @@ image_side = "right"
 background_color = "#fbfbfb"
 font_color = "#000"
 [[page_sections]]
+section_name = "contact-us"
 show_headline = false
 show_subheadline = false
-template = "three-pane"
-left_content = "<h1>Location</h1><p>Washington , D.C. 20002</p>"
-center_content = "<h1>Phone</h1><p>410.366.1779</p>"
-right_content = "<h1>Email</h1><p>contact@inciter.io</p>"
+template = "three-pane-icons"
+left_title="Location"
+center_title="Phone"
+right_title="Email"
+left_content = "<p>Washington , D.C. 20002</p>"
+center_content = "<p>410.366.1779</p>"
+right_content = "<p>contact@inciter.io</p>"
+left_icon = "map-marker-alt"
+center_icon = "phone"
+right_icon = "envelope"
 [[page_sections]]
 footer_text = "&copy; 2020 Inciter. All Rights Reserved. Incite is a trademark and product offering of Inciter."
 template = "page-footer"
 [[page_sections.social_icons_section]]
 template = "social-icons"
 [[page_sections.social_icons_section.networks]]
-network_icon = ""
+network_icon = "facebook-f"
 network_name = "Facebook"
 network_url = "https://www.facebook.com/InciterHQ/"
 [[page_sections.social_icons_section.networks]]
-network_icon = ""
+network_icon = "twitter"
 network_name = "Twitter"
 network_url = "https://twitter.com/InciterHQ"
 [[page_sections.social_icons_section.networks]]
-network_icon = ""
+network_icon = "linkedin-in"
 network_name = "Linked In"
 network_url = "https://www.linkedin.com/company/6458327/"
 [[page_sections.social_icons_section.networks]]
-network_icon = ""
+network_icon = "blogger-b"
 network_name = "Our blog"
 network_url = "https://www.inciter.io/blog-masonry/"
 
