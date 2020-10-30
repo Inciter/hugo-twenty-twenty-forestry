@@ -1,4 +1,37 @@
 ---
 label: Testimonials
 hide_body: true
-fields: []
+fields:
+- name: headline
+  type: text
+  config:
+    required: false
+  label: Headline
+- name: testimonial_information
+  type: field_group_list
+  fields:
+  - name: testimonial_content
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Testimonial Content
+    description: Long-form testimonial text
+  - name: client_attribution
+    type: text
+    config:
+      required: false
+    label: Client Attribution
+  - name: client_location
+    type: text
+    config:
+      required: false
+    label: Client Location
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Testimonial Information
