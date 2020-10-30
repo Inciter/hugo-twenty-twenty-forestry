@@ -145,3 +145,21 @@ footer {
           @apply inline-block mr-4;
       }
   }
+
+  .blog-entry {
+    @apply flex border-b pb-4 mb-4 mr-4;
+    .image {
+        width: 250px;
+    }
+
+    .info {
+        @apply flex-grow ml-4;
+        h4 {
+            @apply text-lg font-semibold uppercase;
+        }
+    }
+
+    &:last-of-type {
+        border: none;
+    }
+  }

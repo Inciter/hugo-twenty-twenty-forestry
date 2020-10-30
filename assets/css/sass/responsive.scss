@@ -67,7 +67,7 @@ footer {
     }
     .split {
         @apply block;
-        div {
+        & > div {
             @apply w-full mb-8;
         }
     }
@@ -206,7 +206,7 @@ footer {
         }
         .split {
             @apply flex;
-            div {
+            & > div {
                 @apply w-1/2;
             }
         }
