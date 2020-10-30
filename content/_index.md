@@ -77,7 +77,7 @@ left_content = "<p>Inciter staff worked with us, customizing our database to rec
 left_side = ""
 right_content = "<p>Incite has been an incredibly useful tool for our agency to collect data from our multiple partners. Inciter staff are reliable, responsive, and very helpful. They really listen and use their data expertise to tailor our database specifically for us!</p>- Human Trafficking Agency Director, Contra Costa, CA"
 right_side = ""
-section_name = ""
+section_name = "What clients are saying"
 template = "two-pane-section-w-header"
 [[page_sections]]
 background_color = "#5f5f5f"
