@@ -37,14 +37,14 @@ headline = "Imagine if you could..."
 image_url = "/images/bag-half.jpg"
 template = "benefits-side-by-side-with-image"
 [[page_sections.benefits_list]]
+benefit_explanation = "We bring together all your data no matter where it lives.<br />(Hello, no more random spreadsheets!)"
+benefit_text = "Find Your Data When You Need It."
+[[page_sections.benefits_list]]
 benefit_explanation = "Take back all that wasted time with our automated tools."
 benefit_text = "Reclaim Hours Every Week."
 [[page_sections.benefits_list]]
 benefit_explanation = "The right reports, with the right data, every time.<br />No more second-guessing yourself."
 benefit_text = "Be 100% Confident about Your Reports."
-[[page_sections.benefits_list]]
-benefit_explanation = "We bring together all your data no matter where it lives.<br />(Hello, no more random spreadsheets!)"
-benefit_text = "Find Your Data When You Need It."
 [[page_sections]]
 section_text = "Most nonprofits spend days putting together reports for board meetings and funders. Inciter brings your data together and connects it to a simple reporting tool, saving you time and energy.  Imagine having more time to focus more on your mission and less on your data."
 template = "single-paragraph-section"
