@@ -3,14 +3,14 @@ label: 2-pane Side-by-Side Section
 hide_body: false
 fields:
   - type: textarea
-    name: left_side
+    name: left_content
     label: Left Content
     config:
       wysiwyg: true
       schema:
         format: html-blocks
   - type: textarea
-    name: right_side
+    name: right_content
     label: Right Content
     config:
       wysiwyg: true
