@@ -17,6 +17,7 @@ subheadline = "So you can focus on your mission."
 template = "hero"
 [[page_sections]]
 headline = "DO YOU SPEND DAYS …"
+section_name = "Do you spend days..."
 subheadline = "PUTTING TOGETHER REPORTS FOR BOARD MEETINGS AND FUNDERS?"
 template = "multi-item-section"
 [[page_sections.list_section_item]]
@@ -33,7 +34,7 @@ headline = "Your Reports are Probably Wrong"
 image = "/images/icon-tablet.png"
 [[page_sections]]
 headline = "Imagine if you could..."
-image_url = "/images/bag-half.jpg"
+image_url = ""
 template = "benefits-side-by-side-with-image"
 [[page_sections.benefits_list]]
 benefit_explanation = "Take back all that wasted time with our automated tools."
