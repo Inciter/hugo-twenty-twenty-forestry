@@ -83,6 +83,10 @@ template = "two-pane-section-w-header"
 headline = "What clients are saying"
 template = "testimonials"
 [[page_sections.testimonial_information]]
+client_attribution = "Human Trafficing Agency Director"
+client_location = "Contra Costa, CA"
+testimonial_content = "Incite has been an incredibly useful tool for our agency to collect data from our multiple partners. Inciter staff are reliable, responsive, and very helpful. They really listen and use their data expertise to tailor our database specifically for us!"
+[[page_sections.testimonial_information]]
 client_attribution = "Domestic Violence Nonprofit Director"
 client_location = "Baltimore, MD"
 testimonial_content = "Inciter staff worked with us, customizing our database to record information specific to our program, clients, and changing funders’ requirements, making reporting a wide range of data possible and easy."
