@@ -1,13 +1,13 @@
-<section class="multi-item-section">
-    <div class="section-content-wrapper">
-        <div>
-            <h1>{{.headline}}</h1>
-            <h2>{{.subheadline}}</h2>
+<section class="multi-item-section relative">
+    <div class="container mx-auto flex-col">
+        <div class="multi-item-headers">
+            <h1 class="text-center">{{.headline}}</h1>
+            <h2 class="text-center">{{.subheadline}}</h2>
         </div>
-        <ul>
+        <ul class="multi-item-list">
             {{- range .list_section_item -}}
             <li>
-                <img src="{{.image | relURL }}" alt="{{.headline}}" />
+                <img src="{{.image | relURL }}" alt="{{.headline}}" class="object-none object-center" />
                 <h2>{{.headline}}</h2>
                 <p>{{.description}}</p>
             </li>
@@ -15,37 +15,3 @@
         </ul>
     </div>
 </section>
-
-<style>
-    .multi-item-section {
-        background: #f1f1f1;
-    }
-    .multi-item-section ul {
-        list-style: none;
-        display: flex;
-        margin: 0 0 0 0;
-    }
-
-    .multi-item-section h1, .multi-item-section h2 {
-        text-align:center;
-        font-family: 'Ubuntu',sans-serif;
-        text-transform: uppercase;
-    }
-
-    .multi-item-section h1 {
-        color:#dd6c37;
-    }
-
-    .multi-item-section li h2 {
-        color:#dd6c37;
-        font-size:1rem;
-        text-transform: capitalize;
-    }
-
-    .multi-item-section ul li{
-        flex: 1;
-        text-align: center;
-        margin: 3rem;
-        display:block;
-    }
-</style>

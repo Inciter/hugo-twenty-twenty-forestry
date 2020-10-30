@@ -1,46 +1,9 @@
-<header>
-    <div class="section-content-wrapper">
-        <div class="logo-wrapper"><img src="{{ .logo_image | relURL }}" alt="Inciter" /></div>
+<header class="bg-gray-800 p-2 mt-0 fixed w-full z-10 top-0 box-border">
+    <div class="flex container mx-auto">
+        <div class="logo-wrapper w-full md:w-2/6"><img src="{{ .logo_image | relURL }}" alt="Inciter" /></div>
         <div class="cta"><a href="{{.button_url}}" target="_blank" rel="noopener" class="btn">{{ .button_text }}</a></div>
     </div>
 </header>
-
-<style>
-    header {
-        height:90px;
-        padding-bottom: 1rem;
-        background: rgba(0,0,0,1);
-    }
-
-    header .section-content-wrapper {
-        display:flex;
-        padding-top: 0;
-        padding-bottom: 0;
-        height:100%;
-    }
-
-    header .section-content-wrapper >.div {
-        flex:1
-    }
-    .logo-wrapper {
-        width:275px;
-        height:100%;
-    }
-
-    .logo-wrapper img {
-        height: 100%;
-        width: auto;
-        max-height: 90px;
-    }
-
-    .cta {
-        text-align:right;
-        width: calc(1100px - 275px);
-        height: 100%;
-    }
-
-    .cta a {
-        position: relative;
-        top: 37%;
-    }
-</style>
+<div id="shadowheader" class="box-border" style="height:120px;"> 
+<!-- This empty div occupies the original 'space' that would have been taken up by the header if it were not 'fixed' positioned -->
+</div>

@@ -1,6 +1,6 @@
 <section class="benefits-side-by-side">
-    <div class="section-content-wrapper">
-    <div style="background-image: url({{.image_url|relURL}});background-position: 50%; background-repeat: no-repeat;background-size:cover;">&nbsp;</div>
+    <div class="container mx-auto">
+    <div>&nbsp;</div>
     <div>
         <h2>{{ .headline }}</h2>
         <ul>
@@ -14,24 +14,3 @@
     </div>
 </div>
 </section>
-
-<style>
-    .benefits-side-by-side > .section-content-wrapper {
-        display: flex;
-        flex-direction: row;
-    }
-
-    .benefits-side-by-side > .section-content-wrapper > div {
-        flex: 1;
-    }
-
-    .benefits-side-by-side > .section-content-wrapper > div ul {
-        margin: 0;
-    }
-
-    .benefits-side-by-side img {
-        width:100%;
-        height:auto;
-        max-width: 100%;
-    }
-</style>

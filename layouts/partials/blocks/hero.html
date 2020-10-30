@@ -1,32 +1,12 @@
 <section class="hero">
-<div class="section-content-wrapper" style="{{ safeHTMLAttr (printf "background: url(%s)" .background)}}">
-        <div>
-            <h1>{{.headline}}</h1>
-            <h2>{{.subheadline}}</h2>
+<div class="container mx-auto" style="{{ safeHTMLAttr (printf "background: url(%s)" .background)}}">
+        <div class="message">
+            <h1 class="text-5xl font-normal text-gray-700 leading-none mb-4">{{.headline}}</h1>
+            <h2 class="text-3xl font-normal text-gray-700 leading-none mb-6">{{.subheadline}}</h2>
             <a href="{{ .cta_url }}" class="btn" target="_blank" rel="noopener">{{ .cta_text }}</a>
         </div>
-        <div>
+        <div class="image">
             <img src="{{ .hero_image|relURL }}" alt="{{.headline}}" />
         </div>
     </div>
 </section>
-
-<style>
-    .hero > .section-content-wrapper {
-        display:flex;
-    }
-
-    .hero > div.section-content-wrapper > div {
-        flex:1;
-        text-align: center;
-    }
-
-    .hero > div.section-content-wrapper > div .btn {
-        margin: 1rem auto;
-    }
-
-    .hero > div.section-content-wrapper > div img {
-        max-width:100%;
-        height:auto
-    }
-</style>

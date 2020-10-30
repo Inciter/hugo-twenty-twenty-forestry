@@ -1,16 +1,6 @@
 <section class="two-pane" style="{{ safeHTMLAttr (printf "font-size: %sem" .font_size) }};{{ safeHTMLAttr (printf "background-color: %s" .background_color) }};{{ safeHTMLAttr (printf "color: %s" .font_color) }}">
-    <div class="section-content-wrapper">
+    <div class="container mx-auto">
         <div>{{ .left_content | safeHTML }}</div>
         <div>{{ .right_content | safeHTML }}</div>
     </div>
 </section>
-
-<style>
-.two-pane > .section-content-wrapper {
-    display: flex;
-}
-
-.two-pane > .section-content-wrapper > div{
-    flex: 1
-}
-</style>

@@ -1,19 +1,16 @@
 <footer>
-    <div>
-        {{ .footer_text | safeHTML }}
-    </div>
-    <div>
-        {{- range .social_icons_section -}}
-            {{- range .networks -}}
-                <a href="{{ .network_url }}" target="_blank" rel="noopener">{{ .network_name }}</a>
+    <div class="container mx-auto">
+        <div class="copyright">
+            {{ .footer_text | safeHTML }}
+        </div>
+        <div class="links">
+            {{- range .social_icons_section -}}
+                {{- range .networks -}}
+                    <a href="{{ .network_url }}" target="_blank" rel="noopener" alt="{{ .network_name}}">{{ partial "fontawesome.html" .network_icon }}</a>
+                {{- end -}}
+
+                
             {{- end -}}
-        {{- end -}}
+        </div>
     </div>
 </footer>
-<style>
-footer {
-    padding: 3rem 3rem;
-    background-color: #de6d38 !important;
-    color: #fff;
-}
-</style>

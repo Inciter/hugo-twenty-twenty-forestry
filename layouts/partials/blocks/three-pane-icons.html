@@ -7,9 +7,9 @@
         <div class="subheadline"><h2>{{.subheadline}}</h2></div>
         {{end}}
         <div class="row">
-            <div>{{ .left_content|safeHTML }}</div>
-            <div>{{ .center_content|safeHTML }}</div>
-            <div>{{ .right_content|safeHTML }}</div>
+            <div><h1>{{ partial "fontawesome.html" .left_icon }} {{.left_title}}</h1>{{ .left_content|safeHTML }}</div>
+            <div><h1>{{ partial "fontawesome.html" .center_icon }} {{.center_title}}</h1>{{ .center_content|safeHTML }}</div>
+            <div><h1>{{ partial "fontawesome.html" .right_icon }} {{.right_title}}</h1>{{ .right_content|safeHTML }}</div>
         </div>
     </div>
 </section>
