@@ -3,17 +3,17 @@ label: 2-pane Side-by-Side Section with Centered Header
 hide_body: true
 display_field: section_name
 fields:
-  - name: section_name
-    type: text
-    config:
-      required: false
-    label: Section Name
-  - type: text
-    name: headline
-    label: Headline
-  - type: textarea
-    name: left_content
-    label: Left Content
-  - type: textarea
-    name: right_content
-    label: Right Content
+- name: section_name
+  type: text
+  config:
+    required: false
+  label: Section Name
+- type: text
+  name: headline
+  label: Headline
+- type: textarea
+  name: left_content
+  label: Left Content
+- type: textarea
+  name: right_content
+  label: Right Content
