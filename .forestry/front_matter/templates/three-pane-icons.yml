@@ -25,6 +25,12 @@ fields:
       wysiwyg: true
       schema:
         format: html-blocks
+  - type: text
+    name: left_icon
+    label: Icon (left)
+  - type: text
+    name: left_title
+    label: Title (left)
   - type: textarea
     name: center_content
     label: Content (center)
@@ -32,6 +38,18 @@ fields:
       wysiwyg: true
       schema:
         format: html-blocks
+  - type: text
+    name: center_icon
+    label: Icon (center)
+  - type: text
+    name: center_title
+    label: Title (center)
+  - type: text
+    name: right_title
+    label: Title (right)
+  - type: text
+    name: right_icon
+    label: Icon (right)
   - type: textarea
     name: right_content
     label: Content (right)
