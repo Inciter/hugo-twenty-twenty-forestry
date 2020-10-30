@@ -21,7 +21,7 @@ subheadline = "PUTTING TOGETHER REPORTS FOR BOARD MEETINGS AND FUNDERS?"
 template = "multi-item-section"
 [[page_sections.list_section_item]]
 description = "The problem is, you spend precious time tracking down important numbers that should be right at your fingertips."
-headline = "Your Data is All Over the Place"
+headline = "Your Data is All Over the Place1"
 image = "/images/icon-network-61x57.png"
 [[page_sections.list_section_item]]
 description = "Days spent messing around with spreadsheets and canned reports. This isn’t what you signed up for."
