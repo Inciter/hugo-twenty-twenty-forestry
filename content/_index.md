@@ -73,14 +73,6 @@ subheadline = "These three steps are part of every process we implement. Using t
 template = "three-pane"
 [[page_sections]]
 headline = "What clients are saying"
-left_content = "<p>Inciter staff worked with us, customizing our database to record information specific to our program, clients, and changing funders’ requirements, making reporting a wide range of data possible and easy.</p>- Domestic Violence Nonprofit Director, Baltimore, MD"
-left_side = ""
-right_content = "<p>Incite has been an incredibly useful tool for our agency to collect data from our multiple partners. Inciter staff are reliable, responsive, and very helpful. They really listen and use their data expertise to tailor our database specifically for us!</p>- Human Trafficking Agency Director, Contra Costa, CA"
-right_side = ""
-section_name = ""
-template = "two-pane-section-w-header"
-[[page_sections]]
-headline = "What clients are saying"
 template = "testimonials"
 [[page_sections.testimonial_information]]
 client_attribution = "Domestic Violence Nonprofit Director"
