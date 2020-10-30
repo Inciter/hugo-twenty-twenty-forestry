@@ -1,58 +1,22 @@
-# Hugo Twenty Twenty Forestry starter
+# Inciter Hugo Theme and Site
 
-[Twenty Twenty theme](https://github.com/themefisher/twenty-twenty-hugo) is developed by Themefisher.
+## CSS
+We are using SASS and Tailwind with PostCSS as part of the site build process.  Currently the SASS styles are broken into 4 files:
+- icons.scss (the style for our icon usage)
+- blocks.scss (the styles for block elements and blocks of content.  Usually related to spacing, sizing, etc.)
+- responsive.scss (styles related to different screen size presentation, mostly padding/margin/display types)
+- typography.scss (styles related to font presentation and colors)
 
-[Live Preview](https://hugo-twenty-twenty-forestry.vercel.app/)
+Also, in typical tailwind fashion, we can override styles/introduce new styles in assets/css/tailwind.config.js.
 
-![Homepage preview](./images/homepage.png)
+Full documentation for TailwindCSS can be found [here](https://tailwindcss.com/docs/installation)
 
-## Requirements
+## Icons
+We use SVG icons from FontAwesome, however, we do not load the entire font awesome library/CSS/JS for purposes of performance.  Instead, we have the svg icons we use downloaded to the `fontawesome` folder in the repository's root, and we use the `fontawesome.html` partial to render icons by name (matching their file name).
 
-- GitHub, GitLab or BitBucket account
-- Hugo > 0.62.2
+### Adding a new icon
+Simply download the SVG for the icon you wish to use from FontAwesome's repository, and save it in the `fontawesome` folder.  After that is committed, you can reference that icon using the `fontawesome` partial by using the icon name/svg file name.
 
-## Content Management
+Ex.
 
-[![import to Forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=DirtyF/hugo-twenty-twenty-forestry&engine=hugo&version=0.74.3)
-
-![Forestry admin interface](./images/forestry-admin.png)
-
-This project has been pre-configured to work with [Forestry](https://forestry.io) a git-based CMS, [import your repository in Forestry](https://app.forestry.io/quick-start?repo=DirtyF/hugo-twenty-twenty-forestry&engine=hugo&version=0.74.3) and you'll be able to edit and preview your site ✨. \
-
-Any changes you make in Forestry will be commited back to the repo and automatically deployed, e.g with [Vercel](#vercel) or [Netlify](#netlify).
-
-## Local development
-
-```bash
-# clone your imported repository
-# cd in the project directory
-# Start local dev server
-hugo server
-```
-
-## Deployment and hosting
-
-### Vercel
-
-[![Deploy to Vercel](https://zeit.co/button)](https://zeit.co/new/project?template=https://github.com/forestryio/kross-hugo-starter)
-
-Copy-paste your Git repository URL, accept default settings and click deploy ✨.
-
-### Netlify
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/hugo-twenty-twenty-forestry)
-
-1. Set the build command to: `hugo --gc --minify`
-2. Set the publish directory to: `public`
-3. Make sure to set `HUGO_VERSION` to 0.62.2 or above (tested with 0.74.3)
-3. Set the publish directory to: `public`
-
-That's it, now your site gets deployed automatically on `git push` or when saving documents from Forestry.
-
-## Feedback
-
-[Open an issue](https://github.com/themefisher/twenty-twenty-hugo/issues) in the theme's repository.
-
-## LICENSE
-
-[GNU General Public License v2.0](https://github.com/themefisher/twenty-twenty-hugo/blob/master/LICENSE).
+You downloaded a new icon with a filename of 'awesome-icon.svg'.  Anywhere that we use icon names in the Hugo blocks, you can reference this icon by the name 'awesome-icon' and it will work.  Using it in the partial in a template would look like: `{{ partial "fontawesome.html" "awesome-icon" }}`

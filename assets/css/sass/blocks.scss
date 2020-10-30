@@ -108,11 +108,16 @@ footer {
   .two-pane {
       .container {
           div {
+              @apply w-1/2;
               &:first-of-type {
                   @apply border-r border-solid;
                   border-color: #898989;
+                  padding-right: 2rem;
               }
-              @apply w-1/2 p-4;
+              &:last-of-type {
+                  margin-left: 2rem;
+              }
+    
               h1 {
                   @apply font-normal text-5xl text-white mb-5 text-center;
               }
