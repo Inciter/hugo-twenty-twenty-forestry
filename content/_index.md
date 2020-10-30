@@ -32,28 +32,30 @@ description = "You spent all week getting reports together for a presentation. N
 headline = "Your Reports are Probably Wrong"
 image = "/images/icon-tablet.png"
 [[page_sections]]
-template = "benefits-side-by-side-with-image"
-image_url = "/images/bag-half.jpg"
 headline = "Imagine if you could..."
+image_url = "/images/bag-half.jpg"
+template = "benefits-side-by-side-with-image"
 [[page_sections.benefits_list]]
-benefit_text = "Reclaim Hours Every Week."
 benefit_explanation = "Take back all that wasted time with our automated tools."
+benefit_text = "Reclaim Hours Every Week."
 [[page_sections.benefits_list]]
-benefit_text = "Be 100% Confident about Your Reports."
 benefit_explanation = "The right reports, with the right data, every time.<br />No more second-guessing yourself."
+benefit_text = "Be 100% Confident about Your Reports."
 [[page_sections.benefits_list]]
-benefit_text = "Find Your Data When You Need It."
 benefit_explanation = "We bring together all your data no matter where it lives.<br />(Hello, no more random spreadsheets!)"
+benefit_text = "Find Your Data When You Need It."
 [[page_sections]]
-template = "single-paragraph-section"
 section_text = "Most nonprofits spend days putting together reports for board meetings and funders. Inciter brings your data together and connects it to a simple reporting tool, saving you time and energy.  Imagine having more time to focus more on your mission and less on your data."
+template = "single-paragraph-section"
 [[page_sections]]
-template = "two-pane-section"
-left_content = "<h1>WE GET IT.</h1><p>Data and reporting for nonprofits can be a struggle. Nothing makes us happier than taking that off their plate so they can do the work they were meant to do.Most nonprofits spend days putting together reports for board meetings and funders. Inciter brings your data together and connects it to a simple reporting tool, saving you time and energy.  Imagine having more time to focus more on your mission and less on your data.</p>"
-right_content = "<h1>WE'VE SEEN IT ALL.</h1><ul><li>We have 20 years of experience helping nonprofits.</li><li>We have worked with over 150 nonprofits to solve data and reporting problems.</li><li>Our tools work with every kind of database nonprofits work with.</li></ul>"
 background_color = "#5f5f5f"
 font_color = "#ffffff"
-font_size = "1"
+font_size = 1
+left_content = "<h1>WE GET IT.</h1><p>Data and reporting for nonprofits can be a struggle. Nothing makes us happier than taking that off their plate so they can do the work they were meant to do.Most nonprofits spend days putting together reports for board meetings and funders. Inciter brings your data together and connects it to a simple reporting tool, saving you time and energy.  Imagine having more time to focus more on your mission and less on your data.</p>"
+left_side = ""
+right_content = "<h1>WE'VE SEEN IT ALL.</h1><ul><li>We have 20 years of experience helping nonprofits.</li><li>We have worked with over 150 nonprofits to solve data and reporting problems.</li><li>Our tools work with every kind of database nonprofits work with.</li></ul>"
+right_side = ""
+template = "two-pane-section"
 [[page_sections]]
 section_name = "how-we-do-it"
 template = "three-pane"
@@ -67,22 +69,28 @@ right_content = "<figure>3</figure><h3>Automate and Visualize</h3><p>We implemen
 background_color = "#f1f1f1"
 font_size = "1"
 [[page_sections]]
-template = "two-pane-section-w-header"
 headline = "What clients are saying"
 left_content = "<p>Inciter staff worked with us, customizing our database to record information specific to our program, clients, and changing funders’ requirements, making reporting a wide range of data possible and easy.</p>- Domestic Violence Nonprofit Director, Baltimore, MD"
+left_side = ""
 right_content = "<p>Incite has been an incredibly useful tool for our agency to collect data from our multiple partners. Inciter staff are reliable, responsive, and very helpful. They really listen and use their data expertise to tailor our database specifically for us!</p>- Human Trafficking Agency Director, Contra Costa, CA"
+right_side = ""
+template = "two-pane-section-w-header"
 [[page_sections]]
-template = "two-pane-section"
-left_content = "<h1>Most people think</h1><p>that to get the reports they need, they have to buy an expensive new system. That means moving all their data over to a new system, getting everyone trained and willing to USE the new system, and working out all the bugs that come along with a project like that.</p>"
-right_content = "<h1>Guess what?</h1><p>You can get accurate and effortless reports without changing a thing.</p>"
 background_color = "#5f5f5f"
 font_color = "#ffffff"
-font_size = "1.25"
+font_size = 1.25
+left_content = "<h1>Most people think</h1><p>that to get the reports they need, they have to buy an expensive new system. That means moving all their data over to a new system, getting everyone trained and willing to USE the new system, and working out all the bugs that come along with a project like that.</p>"
+left_side = ""
+right_content = "<h1>Guess what?</h1><p>You can get accurate and effortless reports without changing a thing.</p>"
+right_side = ""
+template = "two-pane-section"
 [[page_sections]]
-template = "two-pane-section-w-header"
 headline = "What we're saying"
 left_content = "<h2>Our Blog</h2>"
+left_side = ""
 right_content = "<h2>Our Tweets</h2>"
+right_side = ""
+template = "two-pane-section-w-header"
 [[page_sections]]
 section_name = "contact-form"
 template = "two-pane-w-image"
@@ -90,7 +98,11 @@ content = "Contact form goes here"
 image_url = "/images/Reporting-Tool-SS-2-1024x1024.png"
 image_side = "right"
 background_color = "#fbfbfb"
+content = "Contact form goes here"
 font_color = "#000"
+image_side = "right"
+image_url = "/images/Reporting-Tool-SS-2-1024x1024.png"
+template = "two-pane-w-image"
 [[page_sections]]
 section_name = "contact-us"
 show_headline = false
