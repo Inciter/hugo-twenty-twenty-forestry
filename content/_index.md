@@ -98,7 +98,6 @@ content = "Contact form goes here"
 image_url = "/images/Reporting-Tool-SS-2-1024x1024.png"
 image_side = "right"
 background_color = "#fbfbfb"
-content = "Contact form goes here"
 font_color = "#000"
 [[page_sections]]
 section_name = "contact-us"
