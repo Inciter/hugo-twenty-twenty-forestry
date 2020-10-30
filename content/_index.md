@@ -16,7 +16,7 @@ hero_image = "/images/reports-smaller-1-2048x2023.jpg"
 subheadline = "So you can focus on your mission."
 template = "hero"
 [[page_sections]]
-headline = "DO YOU SPEND DAYS …."
+headline = "DO YOU SPEND DAYS …"
 subheadline = "PUTTING TOGETHER REPORTS FOR BOARD MEETINGS AND FUNDERS?"
 template = "multi-item-section"
 [[page_sections.list_section_item]]
