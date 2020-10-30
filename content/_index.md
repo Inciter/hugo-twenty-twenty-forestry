@@ -17,6 +17,7 @@ subheadline = "So you can focus on your mission."
 template = "hero"
 [[page_sections]]
 headline = "DO YOU SPEND DAYS …"
+section_name = ""
 subheadline = "PUTTING TOGETHER REPORTS FOR BOARD MEETINGS AND FUNDERS?"
 template = "multi-item-section"
 [[page_sections.list_section_item]]
@@ -76,7 +77,15 @@ left_content = "<p>Inciter staff worked with us, customizing our database to rec
 left_side = ""
 right_content = "<p>Incite has been an incredibly useful tool for our agency to collect data from our multiple partners. Inciter staff are reliable, responsive, and very helpful. They really listen and use their data expertise to tailor our database specifically for us!</p>- Human Trafficking Agency Director, Contra Costa, CA"
 right_side = ""
+section_name = ""
 template = "two-pane-section-w-header"
+[[page_sections]]
+headline = "What clients are saying"
+template = "testimonials"
+[[page_sections.testimonial_information]]
+client_attribution = "Domestic Violence Nonprofit Director"
+client_location = "Baltimore, MD"
+testimonial_content = "Inciter staff worked with us, customizing our database to record information specific to our program, clients, and changing funders’ requirements, making reporting a wide range of data possible and easy."
 [[page_sections]]
 background_color = "#5f5f5f"
 font_color = "#ffffff"
@@ -90,8 +99,8 @@ right_side = ""
 section_name = ""
 template = "two-pane-section"
 [[page_sections]]
-section_name = "What we're saying"
 headline = "What we're saying"
+section_name = "What we're saying"
 template = "homepage-blog-twitter"
 [[page_sections]]
 background_color = "#fbfbfb"
