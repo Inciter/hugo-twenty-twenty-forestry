@@ -1,6 +1,7 @@
 ---
 label: 2-pane Side-by-Side Section with Centered Header
-hide_body: false
+hide_body: true
+display_field: section_name
 fields:
 - name: section_name
   type: text
