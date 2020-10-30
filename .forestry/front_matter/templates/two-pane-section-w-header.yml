@@ -2,6 +2,11 @@
 label: 2-pane Side-by-Side Section with Centered Header
 hide_body: false
 fields:
+- name: section_name
+  type: text
+  config:
+    required: false
+  label: Section Name
 - type: text
   name: headline
   label: Headline
