@@ -1,0 +1,15 @@
+<section class="two-pane-w-header" style="{{ safeHTMLAttr (printf "font-size: %sem" .font_size) }};{{ safeHTMLAttr (printf "background-color: %s" .background_color) }};{{ safeHTMLAttr (printf "color: %s" .font_color) }}">
+    <div class="container mx-auto">
+    <div class="headline">
+        <h1>{{ .headline }}</h1>
+    </div>
+    <div class="split">
+        {{- range .testimonial_information -}}
+            <div class="mx-4">
+                <h2 class="mb-4">{{.testimonial_content}}</h2>
+                <p class="italic">- {{.client_attribution}}, {{.client_location}}</p>
+            </div>
+            {{- end -}}
+    </div>
+    </div>
+</section>
