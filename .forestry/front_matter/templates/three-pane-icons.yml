@@ -3,73 +3,73 @@ label: three-pane
 hide_body: false
 display_field: section_name
 fields:
-  - type: text
-    name: section_name
-    label: Section Name
-  - type: boolean
-    name: show_headline
-    label: Show Headline?
-  - type: text
-    name: headline
-    label: Headline
-  - type: boolean
-    name: show_subheadline
-    label: Show Sub-Headline?
-  - type: text
-    name: subheadline
-    label: Sub-Headline
-  - type: textarea
-    name: left_content
-    label: Content (left)
-    config:
-      wysiwyg: true
-      schema:
-        format: html-blocks
-  - type: text
-    name: left_icon
-    label: Icon (left)
-  - type: text
-    name: left_title
-    label: Title (left)
-  - type: textarea
-    name: center_content
-    label: Content (center)
-    config:
-      wysiwyg: true
-      schema:
-        format: html-blocks
-  - type: text
-    name: center_icon
-    label: Icon (center)
-  - type: text
-    name: center_title
-    label: Title (center)
-  - type: text
-    name: right_title
-    label: Title (right)
-  - type: text
-    name: right_icon
-    label: Icon (right)
-  - type: textarea
-    name: right_content
-    label: Content (right)
-    config:
-      wysiwyg: true
-      schema:
-        format: html-blocks
-  - type: color
-    name: background_color
-    label: Background color
-    default: "#5b5b5b"
-    config:
-      color_format: Hex
-  - type: number
-    name: font_size
-    label: Font Size (in rems)
-    default: 1
-  - type: color
-    name: font_color
-    label: Font Color
-    default: "#ffffff"
-    config:
-      color_format: Hex
+- type: text
+  name: section_name
+  label: Section Name
+- type: boolean
+  name: show_headline
+  label: Show Headline?
+- type: text
+  name: headline
+  label: Headline
+- type: boolean
+  name: show_subheadline
+  label: Show Sub-Headline?
+- type: text
+  name: subheadline
+  label: Sub-Headline
+- type: textarea
+  name: left_content
+  label: Content (left)
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+- type: text
+  name: left_icon
+  label: Icon (left)
+- type: text
+  name: left_title
+  label: Title (left)
+- type: textarea
+  name: center_content
+  label: Content (center)
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+- type: text
+  name: center_icon
+  label: Icon (center)
+- type: text
+  name: center_title
+  label: Title (center)
+- type: text
+  name: right_title
+  label: Title (right)
+- type: text
+  name: right_icon
+  label: Icon (right)
+- type: textarea
+  name: right_content
+  label: Content (right)
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+- type: color
+  name: background_color
+  label: Background color
+  default: "#5b5b5b"
+  config:
+    color_format: Hex
+- type: number
+  name: font_size
+  label: Font Size (in rems)
+  default: 1
+- type: color
+  name: font_color
+  label: Font Color
+  default: "#ffffff"
+  config:
+    color_format: Hex
