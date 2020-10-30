@@ -191,6 +191,9 @@ footer {
         }
         &.contact-form {
             .container {
+                div:first-of-type {
+                    border: none;
+                }
                 div:last-child {
                     display:block;
                 }
