@@ -20,12 +20,14 @@ fields:
   - hero
   - multi-item-section
   - page-footer
-  - benefits_sbs_image
-  - single_paragraph
   - two-pane-section
   - two-pane-section-w-header
   - two-pane-w-image
   - three-pane
+  - single-paragraph-section
+  - benefits-side-by-side-with-image
+  - homepage-blog-twitter
+  - testimonials
   config:
     min: 1
     max: 20
