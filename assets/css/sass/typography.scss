@@ -1,0 +1,84 @@
+body {
+    font-family: 'Ubuntu',sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    margin:0;
+    padding:0;
+}
+
+.multi-item-headers {
+    h1,h2 {
+        @apply text-4xl font-bold leading-none text-center;
+        font-family: 'Ubuntu',sans-serif
+    }
+
+    h1 {
+        @apply text-orange
+    }
+
+    h2{
+        @apply mb-8
+    }
+    
+}
+
+.multi-item-list {
+    h2 {
+        @apply text-xl text-orange;
+    }
+}
+
+.three-pane {
+    h1 {
+        @apply text-center text-orange text-5xl  font-normal m-0;
+    }
+
+    h2 {
+        @apply text-center text-2xl font-light m-0;
+    }
+
+    .row div{
+        @apply text-xl font-light;
+        h3{
+        
+            @apply text-xl font-bold;
+        }    
+    }
+}
+
+.two-pane-w-header {
+    .container {
+        .headline {
+            @apply text-5xl text-center mb-6;
+        }
+    }
+}
+
+.three-pane.contact-us {
+    h1 {
+        @apply text-3xl;
+        .inline-svg {
+            @apply text-white;
+        }
+    }
+
+    p {
+        @apply text-lg;
+    }
+    .inline-svg {
+        @apply bg-orange;
+        font-size: 15px;
+        padding: .35rem;
+        border-radius: 9999px;
+        width: 24px;
+        height: 24px;
+    }
+}
+
+.inline-svg.facebook-f {
+    width: 10px;
+    height: 8px;
+    top: -5px;
+}
+

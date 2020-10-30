@@ -1,0 +1,146 @@
+.container {
+    width: 1100px;
+}
+
+#content-wrapper > section, {
+    @apply py-4;
+}
+
+#content-wrapper > section:first-of-type {
+    @apply py-12;
+}
+
+footer {
+    @apply p-12;
+}
+
+
+  .btn {
+      display: inline-block;
+      padding:.5rem 1rem;
+      font-weight: 900;
+      text-transform: uppercase;
+      text-decoration: none;
+      color:#fff;
+      background: #dd6c37;
+      border-radius: 5px;
+      border: 1px solid #dd6c37;
+  }
+
+
+  header {
+      @apply bg-gray-800;
+      height: 120px;
+      box-sizing: border-box;
+      .container {
+          height:100%;
+          img {
+              max-height:100%;
+          }
+
+          .btn {
+            position: relative;
+            top: calc(50% - 1.25rem);
+          }
+      }
+  }
+
+  section.hero {
+      .container > div {
+          flex: 1;
+      }
+
+      img {
+        max-width: 100%;
+        margin-bottom: 3rem;
+      }
+
+      .message {
+        @apply text-center
+      }
+  }
+
+  .multi-item-section {
+    .multi-item-list {
+        @apply text-center;
+    
+        li > img {
+            @apply mx-auto block;
+        }
+    
+        b {
+            color: red;
+        }
+      }
+
+      @apply bg-gray-100 pb-24;
+  }
+  
+  .benefits-side-by-side {
+      .container {
+          @apply flex;
+          div {
+              @apply w-1/2;
+              padding: 5% 35px 0;
+              h2{
+                  @apply text-4xl text-orange font-bold uppercase mb-6;
+              }
+              ul {
+                  li {
+                      @apply mb-4;
+                      h3 {
+                          @apply text-xl text-orange font-bold;
+                      }
+                  }
+              }
+          }
+      }
+  }
+
+  .single-paragraph-section {
+      @apply text-2xl font-normal;
+      .container {
+        @apply my-12 text-center;
+      }
+  }
+
+  .two-pane {
+      .container {
+          div {
+              &:first-of-type {
+                  @apply border-r border-solid;
+                  border-color: #898989;
+              }
+              @apply w-1/2 p-4;
+              h1 {
+                  @apply font-normal text-5xl text-white mb-5 text-center;
+              }
+          }
+      }
+  }
+
+  footer { 
+      div {
+          @apply w-full;
+      }
+  }
+
+  .three-pane {
+      .container {
+          .row {
+              div {
+                  @apply m-4 text-center;
+                  figure {
+                    @apply bg-white text-orange inline-block py-3 px-8 mb-8 rounded-full text-4xl;
+                  }
+              }
+          }
+      }
+  }
+
+  footer {
+      @apply text-white bg-orange;
+      a {
+          @apply inline-block mr-4;
+      }
+  }
