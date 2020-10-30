@@ -1,7 +1,13 @@
 ---
 label: 2-pane Side-by-Side Section
-hide_body: false
+hide_body: true
+display_field: section_name
 fields:
+- name: section_name
+  type: text
+  config:
+    required: false
+  label: Section Name
 - name: left_headline
   type: text
   config:
