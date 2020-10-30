@@ -1,9 +1,9 @@
 <section class="hero">
 <div class="container mx-auto" style="{{ safeHTMLAttr (printf "background: url(%s)" .background)}}">
         <div class="message">
-            <h1 class="text-5xl font-normal text-gray-700 leading-none mb-4">{{.headline}}</h1>
-            <h2 class="text-3xl font-normal text-gray-700 leading-none mb-6">{{.subheadline}}</h2>
-            <a href="{{ .cta_url }}" class="btn" target="_blank" rel="noopener">{{ .cta_text }}</a>
+                <h1 class="text-5xl font-normal text-gray-700 leading-none mb-4">{{.headline}}</h1>
+                <h2 class="text-3xl font-normal text-gray-700 leading-none mb-6">{{.subheadline}}</h2>
+                <a href="{{ .cta_url }}" class="btn" target="_blank" rel="noopener">{{ .cta_text }}</a>
         </div>
         <div class="image">
             <img src="{{ .hero_image|relURL }}" alt="{{.headline}}" />

@@ -3,7 +3,7 @@
 }
 
 #content-wrapper > section, {
-    @apply py-4;
+    @apply py-16;
 }
 
 #content-wrapper > section:first-of-type {
@@ -36,6 +36,7 @@ footer {
           height:100%;
           img {
               max-height:100%;
+              padding: 1rem;
           }
 
           .btn {

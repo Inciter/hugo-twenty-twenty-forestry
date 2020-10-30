@@ -148,6 +148,7 @@ footer {
 
     .hero .message {
         @apply w-1/2 px-12 pt-8;
+        margin-top: 5.5rem;
     }
 
     .hero .image {
@@ -184,12 +185,21 @@ footer {
                     @apply border-r;
                 }
                 &:last-child {
-                    display: block;
+                    @apply block;
                 }
             }
         }
+        &.contact-form {
+            .container {
+                div:last-child {
+                    display:block;
+                }
+            }
+            
+        }
     }
 
+    
     .two-pane-w-header {
         .container {
             @apply flex flex-col;

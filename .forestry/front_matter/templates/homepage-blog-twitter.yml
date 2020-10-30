@@ -1,0 +1,8 @@
+---
+label: Blog and Twitter Feed (Homepage)
+hide_body: true
+is_partial: true
+fields:
+  - type: text
+    name: section_name
+    label: Section name
