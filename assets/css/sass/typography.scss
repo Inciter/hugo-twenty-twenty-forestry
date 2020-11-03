@@ -1,5 +1,6 @@
 body {
     font-family: 'Ubuntu',sans-serif;
+    @apply text-lg font-light;
 }
 
 h1, h2, h3, h4, h5 {
@@ -25,7 +26,7 @@ h1, h2, h3, h4, h5 {
 
 .multi-item-list {
     h2 {
-        @apply text-xl text-orange;
+        @apply text-xl text-orange font-bold;
     }
 }
 
@@ -58,8 +59,12 @@ h1, h2, h3, h4, h5 {
 .three-pane.contact-us {
     h1 {
         @apply text-3xl;
+        display:inline-block;
+        vertical-align: middle;
         .inline-svg {
             @apply text-white;
+            display: inline-block;
+            vertical-align: middle;
         }
     }
 
@@ -69,10 +74,11 @@ h1, h2, h3, h4, h5 {
     .inline-svg {
         @apply bg-orange;
         font-size: 15px;
-        padding: .35rem;
+        padding: .75rem;
         border-radius: 9999px;
-        width: 24px;
-        height: 24px;
+        width: 48px;
+        height: 48px;
+        top:auto;
     }
 }
 
@@ -85,4 +91,14 @@ h1, h2, h3, h4, h5 {
 .two-pane ul {
     list-style: disc;
     margin: 1rem 2rem;
+}
+
+.testimonials p {
+    font-family: serfif;
+}
+
+.two-pane.we-get-it {
+    h1 {
+        text-transform: uppercase;
+    }
 }

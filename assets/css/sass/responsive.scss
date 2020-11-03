@@ -43,7 +43,7 @@ footer {
 
 .two-pane {
     .container {
-        div {
+        & > div {
             @apply w-full;
             &:first-of-type {
                 @apply border-0;
@@ -179,7 +179,7 @@ footer {
 
     .two-pane{
         .container {
-            div {
+            & > div {
                 @apply w-1/2;
                 &:first-of-type {
                     @apply border-r;

@@ -57,6 +57,7 @@ left_headline = "We get it."
 right_content = "<ul><li>We have 20 years of experience helping nonprofits.</li><li>We have worked with over 150 nonprofits to solve data and reporting problems.</li><li>Our tools work with every kind of database nonprofits work with.</li></ul>"
 right_headline = "We've seen it all."
 section_name = "We get it"
+section_slug = "we-get-it"
 template = "two-pane-section"
 [[page_sections]]
 background_color = "#f1f1f1"

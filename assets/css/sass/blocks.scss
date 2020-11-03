@@ -64,7 +64,9 @@ footer {
   .multi-item-section {
     .multi-item-list {
         @apply text-center;
-    
+        li {
+            @apply mx-4;
+        }
         li > img {
             @apply mx-auto block;
         }
@@ -107,7 +109,7 @@ footer {
 
   .two-pane {
       .container {
-          div {
+          & > div {
               @apply w-1/2;
               &:first-of-type {
                   @apply border-r border-solid;
@@ -168,3 +170,7 @@ footer {
         border: none;
     }
   }
+
+  iframe#hs-form-iframe-0 {
+    width: 100%!important;
+}
