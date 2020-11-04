@@ -101,7 +101,7 @@ section_name = "What we're saying"
 template = "homepage-blog-twitter"
 [[page_sections]]
 background_color = "#fbfbfb"
-content = "<h1>Download our Free Guide to Choosing the Right Reporting Tool</h1>\n\n<script charset=\"utf-8\" type=\"text/javascript\" src=\"//js.hsforms.net/forms/shell.js\"></script>\n<script>\n  hbspt.forms.create({\n\tportalId: \"8431986\",\n\tformId: \"69692040-174a-4aa3-aab2-363432e9413e\"\n});\n</script>"
+content = "<h1 style='color:#dd6c37'>Download our Free Guide to Choosing the Right Reporting Tool</h1>\n\n<script charset=\"utf-8\" type=\"text/javascript\" src=\"//js.hsforms.net/forms/shell.js\"></script>\n<script>\n  hbspt.forms.create({\n\tportalId: \"8431986\",\n\tformId: \"69692040-174a-4aa3-aab2-363432e9413e\"\n});\n</script>"
 font_color = "#000"
 image_side = "right"
 image_url = "/images/Reporting-Tool-SS-2-1024x1024.png"
