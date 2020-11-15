@@ -3,50 +3,48 @@ label: 2-pane Side-by-Side Section
 hide_body: true
 display_field: section_name
 fields:
-  - name: section_slug
-    type: slug
-  - name: section_name
-    type: text
-    config:
-      required: false
-    label: Section Name
-  - name: left_headline
-    type: text
-    config:
-      required: false
-    label: Left Headline
-  - type: textarea
-    name: left_content
-    label: Left Content
-    config:
-      wysiwyg: true
-      schema:
-        format: html-blocks
-  - name: right_headline
-    type: text
-    config:
-      required: false
-    label: Right Headline
-  - type: textarea
-    name: right_content
-    label: Right Content
-    config:
-      wysiwyg: true
-      schema:
-        format: html-blocks
-  - type: color
-    name: background_color
-    label: Background color
-    default: "#5b5b5b"
-    config:
-      color_format: Hex
-  - type: color
-    name: font_color
-    label: Font Color
-    default: "#ffffff"
-    config:
-      color_format: Hex
-  - type: number
-    name: font_size
-    label: Font Size (in rems)
-    default: 1
+- name: section_name
+  type: text
+  config:
+    required: false
+  label: Section Name
+- name: left_headline
+  type: text
+  config:
+    required: false
+  label: Left Headline
+- type: textarea
+  name: left_content
+  label: Left Content
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+- name: right_headline
+  type: text
+  config:
+    required: false
+  label: Right Headline
+- type: textarea
+  name: right_content
+  label: Right Content
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+- type: color
+  name: background_color
+  label: Background color
+  default: "#5b5b5b"
+  config:
+    color_format: Hex
+- type: color
+  name: font_color
+  label: Font Color
+  default: "#ffffff"
+  config:
+    color_format: Hex
+- type: number
+  name: font_size
+  label: Font Size (in rems)
+  default: 1
