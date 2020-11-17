@@ -1,6 +1,9 @@
-<section class="two-pane {{.section_slug}}" style="{{ safeHTMLAttr (printf "font-size: %sem" .font_size) }};{{ safeHTMLAttr (printf "background-color: %s" .background_color) }};{{ safeHTMLAttr (printf "color: %s" .font_color) }}">
-    <div class="container mx-auto">
-        <div><h1>{{.left_headline}}</h1>{{ .left_content | safeHTML }}</div>
-        <div><h1>{{.right_headline}}</h1>{{ .right_content | safeHTML }}</div>
+<section class="two-pane {{.section_slug}} text-{{.text_alignment}}{{if .with_background}} with-background{{end}}{{if .with_separator}} with-separator{{end}}{{if .background_color}} bg-{{.background_color}}{{end}}{{if .text_color}} text-{{.text_color}}{{end}}">
+    <div class="container mx-auto flex flex-col">
+        <div class="headline{{if .headline_color}} text-{{.headline_color}}{{end}}"><h1>{{.main_headline}}</h1></div>
+        <div class="content">
+            <div><h1>{{.left_headline}}</h1>{{ .left_content | safeHTML }}</div>
+            <div><h1>{{.right_headline}}</h1>{{ .right_content | safeHTML }}</div>
+        </div>
     </div>
 </section>

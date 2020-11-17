@@ -20,6 +20,7 @@ headline = "DO YOU SPEND DAYS …"
 section_name = ""
 subheadline = "PUTTING TOGETHER REPORTS FOR BOARD MEETINGS AND FUNDERS?"
 template = "multi-item-section"
+item_headline = true
 [[page_sections.list_section_item]]
 description = "The problem is, you spend precious time tracking down important numbers that should be right at your fingertips."
 headline = "Your Data is All Over the Place"
@@ -59,6 +60,7 @@ right_headline = "We've seen it all."
 section_name = "We get it"
 section_slug = "we-get-it"
 template = "two-pane-section"
+text_alignment = "center"
 [[page_sections]]
 background_color = "#f1f1f1"
 center_content = "<figure>2</figure><h3>Understand the Conduits</h3><p>We identify key data for mapping from one location to another and map out pipelines to get rid of siloed data in your nonprofit.</p>"

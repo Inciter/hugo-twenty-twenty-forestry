@@ -1,4 +1,4 @@
-<section class="two-pane two-pane-image {{.section_name}}" style="{{ safeHTMLAttr (printf "font-size: %sem" .font_size) }};{{ safeHTMLAttr (printf "background-color: %s" .background_color) }};{{ safeHTMLAttr (printf "color: %s" .font_color) }}">
+<section class="two-pane two-pane-image {{.section_name}}{{if .with_background}} with-background{{end}}" style="{{ safeHTMLAttr (printf "font-size: %sem" .font_size) }};{{ safeHTMLAttr (printf "background-color: %s" .background_color) }};{{ safeHTMLAttr (printf "color: %s" .font_color) }}">
     <div class="container mx-auto">
         {{ if  eq .image_side "left" }}
         <div><img src="{{ .image_url|relURL }}" /></div>

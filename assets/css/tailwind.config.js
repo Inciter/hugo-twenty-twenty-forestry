@@ -6,8 +6,10 @@ module.exports = {
         },
         colors:{
           orange: "#dd6c37",
+          darkorange: "#de6d38",
           gray: {
             100: "#f1f1f1",
+            700: "#5b5b5b",
             800: "#333" 
           }
         },

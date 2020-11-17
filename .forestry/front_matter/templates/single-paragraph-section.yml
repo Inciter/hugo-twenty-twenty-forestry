@@ -2,6 +2,38 @@
 label: Single Paragraph Section
 hide_body: false
 fields:
-- type: textarea
-  name: section_text
-  label: Section Text
+  - type: textarea
+    name: section_text
+    label: Section Text
+  - type: boolean
+    name: show_headline
+    label: Does this section have a headline?
+    default: false
+  - type: boolean
+    name: show_button
+    label: Does this section have a button?
+    default: false
+  - type: string
+    name: headline
+    label: CTA Headline
+    default: "A Headline Goes Here"
+  - type: string
+    name: cta_button_text
+    label: CTA Button Text
+    default: "This Is A Button"
+  - type: string
+    default: "orange"
+    name: bg_color
+    label: Background Color
+  - type: string
+    default: white
+    name: text_color
+    label: Font Color
+  - type: string
+    default: gray-800
+    name: headline_color
+    label: Headline Color
+  - type: string
+    name: paragraph_alignment
+    default: center
+    label: How should the paragraph be aligned?

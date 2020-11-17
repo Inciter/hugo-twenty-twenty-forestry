@@ -18,13 +18,19 @@ footer {
   .btn {
       display: inline-block;
       padding:.5rem 1rem;
-      font-weight: 900;
+      font-weight: normal;
       text-transform: uppercase;
+      font-size: 1rem;
       text-decoration: none;
       color:#fff;
       background: #dd6c37;
       border-radius: 5px;
       border: 1px solid #dd6c37;
+      font-family: "Ubuntu",sans-serif;
+
+      &:hover {
+          @apply bg-gray-800;
+      }
   }
 
 
@@ -42,11 +48,15 @@ footer {
           .btn {
             position: relative;
             top: calc(50% - 1.25rem);
+            font-weight: bold;
           }
       }
   }
 
   section.hero {
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
       .container > div {
           flex: 1;
       }
@@ -59,9 +69,20 @@ footer {
       .message {
         @apply text-center
       }
+
+      .hero-text-block {
+          p {
+              @apply my-4
+          }
+      }
   }
 
   .multi-item-section {
+      &.without-item-headers {
+          ul.multi-item-list li>img {
+              @apply my-10
+          }
+      }
     .multi-item-list {
         @apply text-center;
         li {
@@ -105,23 +126,69 @@ footer {
       .container {
         @apply my-12 text-center;
       }
+
+      p {
+          display: inline-block;
+          margin: 2rem auto;
+      }
+      
+      &.with-headline {
+        h1 {
+            @apply text-4xl font-bold;
+        }
+      }
+      
+      &.with-headline,&.with-button,&.with-headline.with-button {
+          .container {
+            flex-direction: column;
+          }
+          
+          .btn {
+            max-width: 33%;
+            margin: auto;
+          }
+      }
   }
 
   .two-pane {
+      &.with-background {
+        background-image: url(/images/landing-banner-bg.jpg);
+        background-position-x: right;
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+      }
+
+      &.with-separator {
+          .container {
+              & > div {
+                  &:first-of-type {
+                    @apply border-r border-solid;
+                    border-color: #898989;
+                  }
+              }
+          }
+      }
       .container {
-          & > div {
-              @apply w-1/2;
+          & > div.headline {
+              text-align:center;
+              h1 {
+                  @apply text-4xl font-normal;
+              }
+          }
+          & > div.content{
+              @apply flex;
+              & > div {
+                @apply w-1/2;
               &:first-of-type {
-                  @apply border-r border-solid;
-                  border-color: #898989;
                   padding-right: 2rem;
               }
               &:last-of-type {
                   margin-left: 2rem;
               }
+              }
     
               h1 {
-                  @apply font-normal text-5xl text-white mb-5 text-center;
+                  @apply font-normal text-4xl mb-5 text-center;
               }
           }
       }
@@ -173,4 +240,36 @@ footer {
 
   iframe#hs-form-iframe-0 {
     width: 100%!important;
+}
+
+.MediaCard-mediaContainer {display:none;}
+
+.about-inciter {
+    .container > div {
+        &:first-of-type {
+            @apply mr-4;
+        }
+
+        &:last-of-type {
+            @apply ml-4;
+        }
+    }
+    h1,h2,p {
+        @apply mb-4;
+    }
+}
+
+.single-paragraph-section {
+    &.bg-gray-700 {
+        @apply text-white font-light;
+        a {
+            @apply font-bold text-orange;
+        }
+    }
+}
+
+.align-container {
+    align-items: center;
+    justify-items: center;
+    display: flex;
 }

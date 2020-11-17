@@ -1,4 +1,4 @@
-<section class="multi-item-section relative">
+<section class="multi-item-section relative{{if .item_headers}} with-item-headers{{else}} without-item-headers{{end}}">
     <div class="container mx-auto flex-col">
         <div class="multi-item-headers">
             <h1 class="text-center">{{.headline}}</h1>
@@ -8,8 +8,8 @@
             {{- range .list_section_item -}}
             <li>
                 <img src="{{.image | relURL }}" alt="{{.headline}}" class="object-none object-center" />
-                <h2>{{.headline}}</h2>
-                <p>{{.description}}</p>
+                {{ if .headline }} <h2>{{.headline}}</h2> {{ end }}
+                <p>{{.description | safeHTML}}</p>
             </li>
             {{- end -}}
         </ul>

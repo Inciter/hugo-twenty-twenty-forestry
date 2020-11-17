@@ -8,6 +8,16 @@ h1, h2, h3, h4, h5 {
     padding:0;
 }
 
+.multi-item-section {
+    &.without-item-headers {
+        .multi-item-headers {
+            h1,h2 {
+                @apply font-normal;
+            }   
+        }
+    }
+}
+
 .multi-item-headers {
     h1,h2 {
         @apply text-4xl font-bold leading-none text-center;
@@ -101,4 +111,18 @@ h1, h2, h3, h4, h5 {
     h1 {
         text-transform: uppercase;
     }
+}
+
+.about-inciter {
+    h1 {
+        @apply text-orange text-2xl font-bold;
+    }
+
+    h2 {
+        @apply text-3xl font-normal;
+    }
+}
+
+.image-text-list h1 {
+    @apply text-2xl font-normal;
 }

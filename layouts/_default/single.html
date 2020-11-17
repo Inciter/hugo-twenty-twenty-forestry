@@ -1,0 +1,11 @@
+{{ define "desc"}}
+    <meta name="description" content="{{.Params.seo_settings.meta_description}}">
+{{ end }}
+{{ define "title"}}
+    <title>{{.Params.seo_settings.meta_title}} | Inciter</title>
+{{ end }}
+{{ define "main" }}
+    {{- range .Params.page_sections -}}
+        {{ partial ( printf "blocks/%s.html" .template ) . }}
+    {{- end -}}
+{{ end }}

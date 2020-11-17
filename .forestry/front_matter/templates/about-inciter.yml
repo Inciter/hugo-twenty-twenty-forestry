@@ -1,0 +1,8 @@
+---
+label: About Inciter (logo'd)
+hide_body: true
+fields:
+  - type: string
+    name: background_color
+    default: gray-100
+    label: Background Color

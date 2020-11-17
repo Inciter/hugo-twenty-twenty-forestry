@@ -1,5 +1,11 @@
-<section class="single-paragraph-section bg-orange">
-    <div class="container mx-auto text-white">
-        <p>{{ .section_text }}</p>
+<section class="single-paragraph-section bg-{{.bg_color}}{{if .show_headline}} with-headline{{end}}{{if .show_button}} with-button{{end}}">
+    <div class="container mx-auto text-{{.text_color}}">
+        {{if .show_headline}}
+        <h1 class="text-{{.headline_color}}">{{.headline}}</h1>
+        {{end}}
+        <p class="text-{{.paragraph_alignment}}">{{ .section_text | safeHTML }}</p>
+        {{if .show_button}}
+        <a href="{{.cta_button_link}}" class="btn" rel="noopener nofollow">{{.cta_button_text}}</a>
+        {{end}}
     </div>
 </section>
