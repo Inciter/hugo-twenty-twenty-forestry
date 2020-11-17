@@ -1,5 +1,4 @@
 +++
-draft = true
 [seo_settings]
 meta_description = "About Incite"
 meta_title = "About Incite"
