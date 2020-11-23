@@ -11,10 +11,10 @@ sections:
 - type: heading
   label: Blog Post
 - type: directory
-  path: content
+  path: content/posts
   label: Posts
   create: documents
-  match: posts/*
+  match: "*"
   new_doc_ext: md
   templates:
   - blog-post
