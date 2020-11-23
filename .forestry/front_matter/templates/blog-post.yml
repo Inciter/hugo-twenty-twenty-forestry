@@ -35,3 +35,5 @@ fields:
 - type: textarea
   name: author_description
   label: author_description
+pages:
+- content/my-test.md

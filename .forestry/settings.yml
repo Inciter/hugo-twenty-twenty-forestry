@@ -15,7 +15,7 @@ sections:
   label: Posts
   create: documents
   match: posts/*
-  new_doc_ext: ".md"
+  new_doc_ext: md
   templates:
   - blog-post
 - type: heading
