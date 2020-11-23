@@ -8,11 +8,11 @@ fields:
     description: Select a category for this page
     hidden: false
     config:
-    source:
-      type: custom
-      options:
-        - "gray-100"
-        - "gray-400"
-        - "gray-700"
-        - "orange"
-        - "darkorange"
+      source:
+        type: custom
+        options:
+          - "gray-100"
+          - "gray-400"
+          - "gray-700"
+          - "orange"
+          - "darkorange"
