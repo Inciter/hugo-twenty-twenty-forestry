@@ -10,22 +10,16 @@ sections:
   read_only: true
 - type: heading
   label: Blog Post
-- type: document
-  path: content/posts/*
-  label: Post
-  match: "**/*"
+- type: directory
+  path: content
+  label: Posts
+  create: documents
+  match: posts/*
+  new_doc_ext: ".md"
+  templates:
+  - blog-post
 - type: heading
   label: Others Pages
-- type: directory
-  path: content/about
-  label: About
-  create: none
-  match: "*"
-- type: directory
-  path: content/contact
-  label: Contact
-  create: none
-  match: "*"
 - type: directory
   path: content
   label: All Pages
