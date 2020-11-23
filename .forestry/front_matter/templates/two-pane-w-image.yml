@@ -3,27 +3,27 @@ label: 2-pane with image as one pane
 hide_body: false
 display_field: section_name
 fields:
-  - type: text
-    name: section_name
-    label: Section Name (not displayed)
-  - type: textarea
-    name: content
-    label: Content
-  - name: image_url
-    type: file
-    label: Image
-  - type: select
-    name: image_side
-    label: Image Location
-    description: Select whether the image will be shown on the left, or the right.
-    hidden: false
-    config:
-      source:
-        type: custom
-      options:
-        - left
-        - right
-  - type: boolean
-    name: with_background
-    default: false
-    label: Should this block use the hero background image?
+- type: text
+  name: section_name
+  label: Section Name (not displayed)
+- type: textarea
+  name: content
+  label: Content
+- name: image_url
+  type: file
+  label: Image
+- type: select
+  name: image_side
+  label: Image Location
+  description: Select whether the image will be shown on the left, or the right.
+  hidden: false
+  config:
+    source:
+      type: custom
+    options:
+    - left
+    - right
+- type: boolean
+  name: with_background
+  default: false
+  label: Should this block use the hero background image?

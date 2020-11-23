@@ -3,49 +3,49 @@ label: Multi-item Section
 hide_body: true
 display_field: section_name
 fields:
-  - name: section_name
-    type: text
+- name: section_name
+  type: text
+  config:
+    required: false
+  label: Section Name
+- name: headline
+  type: text
+  config:
+    required: false
+  label: Headline
+- name: subheadline
+  type: text
+  config:
+    required: false
+  label: Subheadline
+- name: list_section_item
+  type: field_group_list
+  fields:
+  - name: image
+    type: file
     config:
-      required: false
-    label: Section Name
+      maxSize: 64
+    label: Image
   - name: headline
     type: text
     config:
       required: false
     label: Headline
-  - name: subheadline
-    type: text
+  - name: description
+    type: textarea
+    default: ''
     config:
       required: false
-    label: Subheadline
-  - name: list_section_item
-    type: field_group_list
-    fields:
-      - name: image
-        type: file
-        config:
-          maxSize: 64
-        label: Image
-      - name: headline
-        type: text
-        config:
-          required: false
-        label: Headline
-      - name: description
-        type: textarea
-        default: ""
-        config:
-          required: false
-          wysiwyg: true
-          schema:
-            format: html-blocks
-        label: Description
-    config:
-      min:
-      max:
-      labelField:
-    label: List/Section Item
-  - name: item_headers
-    type: boolean
-    label: Do the list items have their own headlines?
-    default: true
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Description
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: List/Section Item
+- name: item_headers
+  type: boolean
+  label: Do the list items have their own headlines?
+  default: true

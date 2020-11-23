@@ -28,12 +28,14 @@ fields:
   - benefits-side-by-side-with-image
   - homepage-blog-twitter
   - testimonials
+  - image-text-list
+  - four-step-process
+  - about-inciter
   config:
     min: 1
     max: 20
   description: The blocks used to compose the primary content and layout of the page
 pages:
 - content/_index.md
-- content/about-inciter.md
 - content/choosing-a-reporting-tool.md
 - content/data-roadmap-offering.md
