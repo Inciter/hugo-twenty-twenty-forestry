@@ -126,3 +126,40 @@ h1, h2, h3, h4, h5 {
 .image-text-list h1 {
     @apply text-2xl font-normal;
 }
+
+.posts article {
+    h1 {
+        @apply text-3xl font-medium uppercase;
+    }
+    h2 {
+        @apply text-darkorange italic;
+    }
+}
+
+ul.articles-list li.article {
+    h1 {
+        @apply text-xl font-bold uppercase;
+    }
+    h2 {
+        @apply text-sm text-darkorange italic;
+    } 
+}
+
+article #author-details {
+    @apply my-8 mx-4;
+    h1, h2 {
+        @apply text-base font-normal text-black;
+    }
+
+    p {
+        @apply text-base leading-7;
+    }
+
+    .author-email {
+        @apply not-italic font-normal text-gray-700;
+    }
+
+    .author-name {
+        @apply italic font-normal;
+    }
+}

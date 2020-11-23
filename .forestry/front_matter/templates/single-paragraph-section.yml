@@ -13,27 +13,27 @@ fields:
     name: show_button
     label: Does this section have a button?
     default: false
-  - type: string
+  - type: text
     name: headline
     label: CTA Headline
     default: "A Headline Goes Here"
-  - type: string
+  - type: text
     name: cta_button_text
     label: CTA Button Text
     default: "This Is A Button"
-  - type: string
+  - type: text
     default: "orange"
     name: bg_color
     label: Background Color
-  - type: string
+  - type: text
     default: white
     name: text_color
     label: Font Color
-  - type: string
+  - type: text
     default: gray-800
     name: headline_color
     label: Headline Color
-  - type: string
+  - type: text
     name: paragraph_alignment
     default: center
     label: How should the paragraph be aligned?

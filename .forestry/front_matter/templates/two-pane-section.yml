@@ -48,7 +48,7 @@ fields:
     name: font_size
     label: Font Size (in rems)
     default: 1
-  - type: string
+  - type: text
     name: text_alignment
     label: Text Alignment
     default: center

@@ -9,7 +9,7 @@ logo_image = "/images/Inciter-Logo-header-dark.png"
 template = "nav-with-cta"
 [[page_sections]]
 background = "/images/landing-banner-bg.jpg"
-cta_text = "I need a data roadmap!"
+cta_text = "Schedule a free consultation"
 cta_url = "#landing_form"
 headline = ""
 subheadline = "Understand ALL your data, and how to get the most out of it."

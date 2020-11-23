@@ -1,0 +1,31 @@
+<section class="taxonomy-list">
+    <h2>Recent Posts</h2>
+    <ul>
+        {{ range where .Site.RegularPages "Type" "posts" }}
+        <li>
+            <a href="{{.Permalink | absURL}}">{{.Title}}</a>
+        </li>
+        {{ end }}
+    </ul>
+</section>
+<section class="taxonomy-list">
+<h2>Archives</h2>
+{{ $years := .Site.Taxonomies.year }}
+{{ $months := .Site.Taxonomies.month.Alphabetical.Reverse }}
+{{ $monthNames := dict "11" "November" "10" "October" "09" "September"}}
+<ul>
+    {{ range $key, $taxonomy := $years }}
+    {{ range $taxonomy2 := $months }}     
+    <li> <a href="/posts/{{$key}}/{{$taxonomy2.Term}}">{{ index $monthNames $taxonomy2.Term }} {{ $key }} </a></li>
+    {{ end }}
+    {{end}}
+</ul>
+</section>
+<section class="taxonomy-list">
+    <h2>Categories</h2>
+    <ul>
+        {{ range where ( where .Site.Pages "Type" "categories") ".Kind" "ne" "taxonomy" }}
+        <li><a href="/categories/{{.Title | urlize}}">{{ .Title }}</a></li>
+        {{ end }}
+    </ul>
+</section>
