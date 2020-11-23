@@ -1,14 +1,15 @@
 +++
 aliases = []
-author = ""
-author_description = ""
-author_email = ""
-categories = []
+author = "JC Murray"
+author_description = "Testing some content creation"
+author_email = "jc@example.com"
+categories = ["Data Techniques"]
 date = 2020-11-04T07:00:00Z
-featured_image_url = ""
-month = ""
-tags = []
+featured_image_url = "/static/images/data-visualization-featured.png"
+month = "11"
+tags = ["test", "data"]
 title = "test"
-year = nil
+year = 2020
 
 +++
+'ello 'ugo.
