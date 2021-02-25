@@ -32,12 +32,20 @@ fields:
     wysiwyg: true
     schema:
       format: html-blocks
-- type: color
+-type: select
   name: background_color
-  label: Background color
-  default: "#5b5b5b"
+  label: Background Color
+  description: Select a background color for this section
+  hidden: false
   config:
-    color_format: Hex
+    source:
+      type: custom
+      options:
+      - gray-100
+      - gray-400
+      - gray-700
+      - orange
+      - darkorange
 - type: color
   name: font_color
   label: Font Color
