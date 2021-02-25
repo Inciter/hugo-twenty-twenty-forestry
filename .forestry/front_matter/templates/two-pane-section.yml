@@ -40,12 +40,12 @@ fields:
   config:
     source:
       type: custom
-      options:
-      - gray-100
-      - gray-400
-      - gray-700
-      - orange
-      - darkorange
+    options:
+    - "gray-100"
+    - "gray-400"
+    - "gray-700"
+    - "orange"
+    - "darkorange"
 - type: color
   name: font_color
   label: Font Color
