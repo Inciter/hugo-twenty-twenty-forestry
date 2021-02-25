@@ -12,9 +12,8 @@ tags: ['customer loyalty']
 seo_title: "using loyalty to pry your customer out of their hole...or home."
 seo_meta_description: ""
 summary: ""
-featured_image_url: "no image"
 slug: "using-loyalty-to-pry-your-customer-out-of-their-holeor-home"
-url: "https://www.inciter.io/using-loyalty-to-pry-your-customer-out-of-their-holeor-home/"
+url: "/using-loyalty-to-pry-your-customer-out-of-their-holeor-home/"
 authors: CRC
 ---
 

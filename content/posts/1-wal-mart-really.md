@@ -12,9 +12,8 @@ tags: ['']
 seo_title: "wal-mart? really?"
 seo_meta_description: ""
 summary: ""
-featured_image_url: "no image"
 slug: "wal-mart-really"
-url: "https://www.inciter.io/category/customer-satisfaction-research/"
+url: "/category/customer-satisfaction-research/"
 authors: CRC
 ---
 

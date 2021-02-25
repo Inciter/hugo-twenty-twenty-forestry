@@ -12,9 +12,8 @@ tags: ['']
 seo_title: "oh, verizon"
 seo_meta_description: ""
 summary: ""
-featured_image_url: "no image"
 slug: "oh-verizon"
-url: "https://www.inciter.io/oh-verizon/"
+url: "/oh-verizon/"
 authors: CRC
 ---
 

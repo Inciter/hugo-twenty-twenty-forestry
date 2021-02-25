@@ -10,9 +10,11 @@
 </div>
 <article class="container mx-auto flex mt-16">
     <section class="w-3/4">
+        {{if isset .Params "featured_image_url"}}
         <figure>
             <img class="featured_image" src="/images/{{.Params.featured_image_url}}" />
         </figure>
+        {{end}}
         <header>
             <h1>Data Visualization Design Tip: Using a Style Guide</h1>
             <h2>Posted on {{ .PublishDate.Format "January 2, 2006" }} | in {{range .Params.categories}}<a href="/categories/{{. | urlize}}">{{.}}</a>{{end}}| by {{ .Params.author }}</h2>

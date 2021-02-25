@@ -12,9 +12,8 @@ tags: ['']
 seo_title: "if you don't care, at least fake it"
 seo_meta_description: ""
 summary: ""
-featured_image_url: "no image"
 slug: "if-you-dont-care-at-least-fake-it"
-url: "https://www.inciter.io/category/healthcare/"
+url: "/category/healthcare/"
 authors: CRC
 ---
 

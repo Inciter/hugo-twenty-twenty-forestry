@@ -12,9 +12,8 @@ tags: ['']
 seo_title: "listening to your customers is the bottom line."
 seo_meta_description: ""
 summary: ""
-featured_image_url: "no image"
 slug: "listening-to-your-customers-is-the-bottom-line"
-url: "https://www.inciter.io/listening-to-your-customers-is-the-bottom-line/"
+url: "/listening-to-your-customers-is-the-bottom-line/"
 authors: CRC
 ---
 

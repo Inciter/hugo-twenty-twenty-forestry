@@ -12,9 +12,8 @@ tags: ['healthcare']
 seo_title: "customer satisfaction and healthcare"
 seo_meta_description: ""
 summary: ""
-featured_image_url: "no image"
 slug: "customer-satisfaction-and-healthcare"
-url: "https://www.inciter.io/customer-satisfaction-and-healthcare/"
+url: "/customer-satisfaction-and-healthcare/"
 authors: CRC
 ---
 

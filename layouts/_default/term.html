@@ -15,9 +15,11 @@
                 <li class="article">
                     <article>
                         <a href="{{ .Permalink }}">
+                            {{if isset .Params "featured_image_url"}}
                             <figure>
                                 <img src="/images/{{.Params.featured_image_url}}" />
                             </figure>
+                            {{end}}
                         </a>
                         <header>
                             <a href="{{.Permalink}}"><h1>{{.Title}}</h1></a>

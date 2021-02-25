@@ -12,9 +12,8 @@ tags: ['']
 seo_title: "just like sisyphus"
 seo_meta_description: ""
 summary: ""
-featured_image_url: "no image"
 slug: "just-like-sisyphus"
-url: "https://www.inciter.io/just-like-sisyphus/"
+url: "/just-like-sisyphus/"
 authors: CRC
 ---
 

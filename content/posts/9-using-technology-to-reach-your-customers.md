@@ -12,9 +12,8 @@ tags: ['']
 seo_title: "using technology to reach your customers"
 seo_meta_description: ""
 summary: ""
-featured_image_url: "no image"
 slug: "using-technology-to-reach-your-customers"
-url: "https://www.inciter.io/using-technology-to-reach-your-customers/"
+url: "/using-technology-to-reach-your-customers/"
 authors: CRC
 ---
 

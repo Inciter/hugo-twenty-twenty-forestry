@@ -12,9 +12,8 @@ tags: ['customer satisfaction research']
 seo_title: "are all customers created equal?"
 seo_meta_description: ""
 summary: ""
-featured_image_url: "no image"
 slug: "are-all-customers-created-equal"
-url: "https://www.inciter.io/are-all-customers-created-equal/"
+url: "/are-all-customers-created-equal/"
 authors: CRC
 ---
 

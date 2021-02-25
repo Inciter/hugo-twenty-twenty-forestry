@@ -12,9 +12,8 @@ tags: ['']
 seo_title: "go the extra mile"
 seo_meta_description: ""
 summary: ""
-featured_image_url: "no image"
 slug: "go-the-extra-mile"
-url: "https://www.inciter.io/go-the-extra-mile/"
+url: "/go-the-extra-mile/"
 authors: CRC
 ---
 
