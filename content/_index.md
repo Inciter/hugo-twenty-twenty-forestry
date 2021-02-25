@@ -10,17 +10,18 @@ template = "nav-with-cta"
 [[page_sections]]
 background = "/images/landing-banner-bg.jpg"
 cta_text = "Schedule a free consultation"
-cta_url = "https://calendly.com/inciter/30min"
+cta_url = "https://meetings.hubspot.com/taj10"
 headline = "You Deserve Effortless and Accurate Data Reports."
 hero_image = "/images/reports-smaller-1-2048x2023.jpg"
 subheadline = "So you can focus on your mission."
 template = "hero"
 [[page_sections]]
 headline = "DO YOU SPEND DAYS …"
+item_headers = false
+item_headline = true
 section_name = ""
 subheadline = "PUTTING TOGETHER REPORTS FOR BOARD MEETINGS AND FUNDERS?"
 template = "multi-item-section"
-item_headline = true
 [[page_sections.list_section_item]]
 description = "The problem is, you spend precious time tracking down important numbers that should be right at your fingertips."
 headline = "Your Data is All Over the Place"
@@ -47,8 +48,16 @@ benefit_text = "Reclaim Hours Every Week."
 benefit_explanation = "The right reports, with the right data, every time.<br />No more second-guessing yourself."
 benefit_text = "Be 100% Confident about Your Reports."
 [[page_sections]]
+bg_color = ""
+cta_button_text = ""
+headline = ""
+headline_color = ""
+paragraph_alignment = ""
 section_text = "Most nonprofits spend days putting together reports for board meetings and funders. Inciter brings your data together and connects it to a simple reporting tool, saving you time and energy.  Imagine having more time to focus more on your mission and less on your data."
+show_button = false
+show_headline = false
 template = "single-paragraph-section"
+text_color = ""
 [[page_sections]]
 background_color = "#5f5f5f"
 font_color = "#ffffff"
@@ -97,6 +106,7 @@ right_headline = ""
 right_side = ""
 section_name = ""
 template = "two-pane-section"
+text_alignment = ""
 [[page_sections]]
 headline = "What we're saying"
 section_name = "What we're saying"
@@ -109,6 +119,7 @@ image_side = "right"
 image_url = "/images/Reporting-Tool-SS-2-1024x1024.png"
 section_name = "contact-form"
 template = "two-pane-w-image"
+with_background = false
 [[page_sections]]
 background_color = ""
 center_content = "<p>410.366.1779</p>"
