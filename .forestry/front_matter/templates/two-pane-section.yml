@@ -32,7 +32,7 @@ fields:
     wysiwyg: true
     schema:
       format: html-blocks
--type: select
+- type: select
   name: background_color
   label: Background Color
   description: Select a background color for this section
