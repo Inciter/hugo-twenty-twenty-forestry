@@ -41,24 +41,24 @@ fields:
     source:
       type: custom
     options:
-    - "gray-100"
-    - "gray-400"
-    - "gray-700"
-    - "orange"
-    - "darkorange"
+    - gray-100
+    - gray-400
+    - gray-700
+    - orange
+    - darkorange
 - type: select
   name: font_color
   label: Font Color
-  default: "black"
+  default: black
   config:
     source:
       type: custom
     options:
-    - "black"
-    - "white"
-    - "gray-700"
-    - "orange"
-    - "darkorange"
+    - black
+    - white
+    - gray-700
+    - orange
+    - darkorange
 - type: number
   name: font_size
   label: Font Size (in rems)
