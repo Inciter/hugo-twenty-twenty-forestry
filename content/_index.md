@@ -59,7 +59,7 @@ show_headline = false
 template = "single-paragraph-section"
 text_color = ""
 [[page_sections]]
-background_color = "gray-400"
+background_color = "gray-100"
 font_color = "#ffffff"
 font_size = 1
 left_content = "<p>Data and reporting for nonprofits can be a struggle. Nothing makes us happier than taking that off their plate so they can do the work they were meant to do.</p>"
