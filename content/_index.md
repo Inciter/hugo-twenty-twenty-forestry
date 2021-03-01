@@ -95,8 +95,8 @@ client_attribution = "Human Trafficing Agency Director"
 client_location = "Contra Costa, CA"
 testimonial_content = "Incite has been an incredibly useful tool for our agency to collect data from our multiple partners. Inciter staff are reliable, responsive, and very helpful. They really listen and use their data expertise to tailor our database specifically for us!"
 [[page_sections]]
-background_color = "#5f5f5f"
-font_color = "#ffffff"
+background_color = "gray-700"
+font_color = "white"
 font_size = 1.25
 left_content = "<h1>Most people think</h1><p>that to get the reports they need, they have to buy an expensive new system. That means moving all their data over to a new system, getting everyone trained and willing to USE the new system, and working out all the bugs that come along with a project like that.</p>"
 left_headline = ""
