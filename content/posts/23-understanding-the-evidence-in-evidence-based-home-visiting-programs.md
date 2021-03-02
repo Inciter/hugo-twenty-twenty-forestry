@@ -10,7 +10,6 @@ primary_category: "Uncategorized"
 categories: ['Uncategorized'] 
 seo_title: "understanding the "evidence" in "evidence-based" home visiting programs"
 seo_meta_description: ""
-summary: "" 
 slug: "understanding-the-evidence-in-evidence-based-home-visiting-programs"
 url: "/understanding-the-evidence-in-evidence-based-home-visiting-programs/"
 authors: CRC
