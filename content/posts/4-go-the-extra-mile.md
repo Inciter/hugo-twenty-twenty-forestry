@@ -1,17 +1,16 @@
 
 ---
 wp_id: 14
-wp_post_status: "publish" 
+wp_post_status: "draft" 
 title: "Go the Extra Mile"
 date: 2008-10-31T15:11:42+05:00
 date_modified: 2013-06-20T12:58:04+05:00
 date_published: 2008-10-31T15:11:42+05:00
 primary_category: "Uncategorized"
 categories: ['Uncategorized'] 
-tags: ['']
 seo_title: "go the extra mile"
 seo_meta_description: ""
-summary: ""
+summary: "" 
 slug: "go-the-extra-mile"
 url: "/go-the-extra-mile/"
 authors: CRC
