@@ -1,4 +1,7 @@
 +++
+aliases = [
+    "/data-roadmap-offering"
+]
 [seo_settings]
 meta_description = ""
 meta_title = ""
@@ -63,7 +66,4 @@ network_url = "https://www.linkedin.com/company/6458327/"
 network_icon = "blogger-b"
 network_name = "Our blog"
 network_url = "https://www.inciter.io/blog-masonry/"
-aliases = [
-    "/data-roadmap-offering"
-]
 +++
