@@ -1,5 +1,8 @@
 +++
-slug = "choosing-a-reporting-tool"
+aliases = [
+    "/choosing-a-reporting-tool"
+]
+
 [seo_settings]
 meta_description = "Get more out of your data."
 meta_title = "BI Handout with Form"

@@ -36,7 +36,7 @@ image = "/images/icon-help-41x57.png"
 section_name = "roadmap-cta"
 section_slug = "roadmap-cta"
 template = "two-pane-section"
-left_content = "<h2 class=\"text-orange font-normal text-2xl\">Build your roadmap, know what your potential is</h2><p>Ready to start? Send us your contact information and we'll get the conversation started.<h2 class=\"text-orange font-normal text-4xl mt-4\">410.366.1779</h2>"
+left_content = "<h2 class=\"text-orange font-normal text-3xl\">Build your roadmap, know what your potential is</h2><p>Ready to start? Send us your contact information and we'll get the conversation started."
 right_content = "[Form Goes Here!]"
 text_alignment = "left"
 [[page_sections]]

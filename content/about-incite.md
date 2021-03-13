@@ -10,7 +10,7 @@ template = "nav-with-cta"
 [[page_sections]]
 background = "/images/landing-banner-bg.jpg"
 cta_text = "Schedule a free consultation"
-cta_url = "#landing_form"
+cta_url = "https://meetings.hubspot.com/taj10"
 headline = ""
 subheadline = "A cloud-based data system for nonprofits and social service organizations."
 hero_text = "<p>With Incite you can easily enter data, lookup information, and view and interact with your data with our powerful reporting interface. Upload and export data all you want, Incite also plays well with other databases.</p>"
@@ -34,7 +34,7 @@ description = "<strong>Friendly.</strong> With Incite you don’t need to hire s
 image = "/images/icon-help-41x57.png"
 [[page_sections]]
 bg_color = "gray-700"
-section_text = "Tired of reading and want to talk to a real person? <a href=\"#\">See our contact info below.</a>"
+section_text = "Tired of reading and want to talk to a real person? <div class=\"cta\"><a href=\"https://meetings.hubspot.com/taj10\" target=\"_blank\" rel=\"noopener\" class=\"btn\" style=\"color:#fff; margin-top:2rem;\">Schedule a Consultation</a></div>"
 template = "single-paragraph-section"
 [[page_sections]]
 template = "image-text-list"
@@ -75,7 +75,7 @@ template = "four-step-process"
 section_name = "roadmap-cta"
 section_slug = "roadmap-cta"
 template = "two-pane-section"
-left_content = "<h2 class=\"text-orange font-normal text-2xl\">Still have questions? Not sure what you need?</h2><p>We’re here to help! No sales pitch here. Just real conversations about your data needs.</p><h2 class=\"text-orange font-normal text-4xl mt-4\">410.366.1779</h2>"
+left_content = "<h2 class=\"text-orange font-normal text-2xl\">Still have questions? Not sure what you need?</h2><p>We’re here to help! No sales pitch here. Just real conversations about your data needs.</p>"
 right_content = "[Form Goes Here!]"
 text_alignment = "left"
 [[page_sections]]
