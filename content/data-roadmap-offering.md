@@ -41,7 +41,7 @@ image = "/images/icon-help-41x57.png"
 background_color = ""
 font_color = ""
 font_size = nil
-left_content = "<h2 class=\"text-orange font-normal text-2xl\">Build your impact blueprint, know what your potential is</h2><p>Ready to start? Send us your contact information and we'll get the conversation started.</p><h2 class=\"text-orange font-normal text-4xl mt-4\">410.366.1779</h2>"
+left_content = "<h2 class=\"text-orange font-normal text-2xl\">Build your impact blueprint, know what your potential is</h2><p>Ready to start? Send us your contact information and we'll get the conversation started.</p>"
 left_headline = ""
 right_content = "[Form Goes Here!]"
 right_headline = ""
