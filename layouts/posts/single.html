@@ -21,9 +21,11 @@
         </header>
     
         {{ .Content }}
+        {{if isset .Params "tags"}}
         <div class="flex article-tags">
             Tags: {{range .Params.tags}}<span class="tag">{{.}}</span>{{end}}
         </div>
+        {{end}}
         <div class="flex mt-8" id="author-details">
             <div class="w-1/4"></div>
             <div class="w-3/4">
