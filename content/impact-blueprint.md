@@ -1,7 +1,4 @@
 +++
-aliases = [
-    "/data-roadmap-offering"
-]
 [seo_settings]
 meta_description = ""
 meta_title = ""
@@ -22,7 +19,7 @@ hero_headline_alignment = "left"
 hero_image = "/images/Incite.gif"
 template = "hero"
 [[page_sections]]
-section_name = ""
+section_name = "What will I get?"
 headline = "What will I get?"
 template = "multi-item-section"
 item_headline = false
@@ -43,6 +40,7 @@ left_content = "<h2 class=\"text-orange font-normal text-2xl\">Build your roadma
 right_content = "[Form Goes Here!]"
 text_alignment = "left"
 [[page_sections]]
+section_name = "About Inciter"
 template = "about-inciter"
 background_color = "gray-100"
 [[page_sections]]
@@ -66,4 +64,8 @@ network_url = "https://www.linkedin.com/company/6458327/"
 network_icon = "blogger-b"
 network_name = "Our blog"
 network_url = "https://www.inciter.io/blog-masonry/"
+
+aliases = [
+    "/data-roadmap-offering"
+]
 +++
