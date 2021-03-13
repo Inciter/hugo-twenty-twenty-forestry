@@ -16,7 +16,7 @@
         </figure>
         {{end}}
         <header>
-            <h1>Data Visualization Design Tip: Using a Style Guide</h1>
+            <h1>{{.Title}}</h1>
             <h2>Posted on {{ .PublishDate.Format "January 2, 2006" }} | in {{range .Params.categories}}<a href="/categories/{{. | urlize}}">{{.}}</a>{{end}}| by {{ .Params.author }}</h2>
         </header>
     
