@@ -1,23 +1,30 @@
-
 ---
 wp_id: 65352
-wp_post_status: "draft" 
-title: "Alternatives to Microsoft Access Databases"
-date: 2020-12-18T07:30:30+05:00
-date_modified: 2020-12-18T07:30:30+05:00
-date_published: 2020-12-18T07:30:30+05:00
-primary_category: "Data Management And Databases"
-categories: ['Fundraising', 'Healthcare', 'Systems', 'Data Management And Databases'] 
-tags: ['data', 'data management']
-seo_title: "alternatives to microsoft access databases"
-seo_meta_description: "Is it time to replace your Microsoft Access database? What are the alternatives to MS Access? We summarized the best alternatives."
-summary: "" 
-featured_image_url: /wp-content/uploads/2020/12/Screen-Shot-2020-12-15-at-7.39.36-AM.png
-slug: "alternatives-to-microsoft-access-databases"
+wp_post_status: draft
+title: Alternatives to Microsoft Access Databases
+date: 2020-12-18T07:30:30.000+05:00
+date_modified: '2020-12-18T07:30:30.000+05:00'
+date_published: '2020-12-18T07:30:30.000+05:00'
+primary_category: Data Management And Databases
+categories:
+- Fundraising
+- Healthcare
+- Systems
+- Data Management And Databases
+tags:
+- data
+- data management
+seo_title: alternatives to microsoft access databases
+seo_meta_description: Is it time to replace your Microsoft Access database? What are
+  the alternatives to MS Access? We summarized the best alternatives.
+summary: ''
+featured_image_url: "/wp-content/uploads/2020/12/Screen-Shot-2020-12-15-at-7.39.36-AM.png"
+slug: alternatives-to-microsoft-access-databases
 url: "/?p=65352"
 authors: Jacob Joseph
----
+draft: true
 
+---
 #Content
 
 
@@ -84,6 +91,3 @@ _**As a general caution: Please do NOT use "free" data systems for any sensitive
 
 *   [Ask These 5 Questions Before Changing Databases](https://www.inciter.io/your-data-ducks-are-wandering-all-over-the-place-get-them-lined-up-to-maximize-your-technology-resources/)
 *   [Tools to Make Data Cleaning Easier](https://www.inciter.io/tools-to-make-data-cleaning-easier/)
-
-
-

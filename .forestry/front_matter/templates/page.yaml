@@ -37,5 +37,3 @@ fields:
   description: The blocks used to compose the primary content and layout of the page
 pages:
 - content/_index.md
-- content/choosing-a-reporting-tool.md
-- content/data-roadmap-offering.md
